@@ -2,7 +2,7 @@
 
 Prova de Conceito (PoC) de um **prontuário unificado**: um sistema que reúne, em uma única tela, os dados de um paciente que estão separados em sistemas diferentes de saúde (o **e-SUS**, usado nas UBSs, e o **Tasy**, usado em hospitais).
 
-Projeto do Projeto Integrador 1 (curso de Análise e Desenvolvimento de Sistemas, Unilasalle).
+Projeto do Projeto Integrador 2 (curso de Análise e Desenvolvimento de Sistemas, Unilasalle).
 
 > **Todos os dados são 100% fictícios.** Nenhuma informação real de paciente é usada, em respeito à LGPD (Lei 13.709/2018).
 
