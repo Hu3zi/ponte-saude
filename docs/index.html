@@ -26,18 +26,18 @@
   :focus-visible { outline: 3px solid #1b6ef3; outline-offset: 2px; }
   .oculto { display: none !important; }
 
-  /* ---------- marca ---------- */
+  /*marca*/
   .marca { display: flex; align-items: center; gap: 10px; font-family: var(--serif); font-size: 22px; font-weight: 700; letter-spacing: .2px; }
   .marca svg { width: 34px; height: 34px; flex: none; }
 
-  /* ---------- fontes (e-SUS / Tasy) ---------- */
+  /*fontes (e-SUS / Tasy)*/
   .fonte { display: inline-flex; align-items: center; gap: 5px; padding: 1px 8px 1px 6px; border-radius: 99px; font-size: 12.5px; font-weight: 600; line-height: 1.6; white-space: nowrap; }
   .fonte::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
   .fonte.esus { color: var(--esus); background: var(--esus-fundo); }
   .fonte.tasy { color: var(--tasy); background: var(--tasy-fundo); }
   .fontes { display: inline-flex; gap: 4px; flex-wrap: wrap; }
 
-  /* ---------- login ---------- */
+  /*  login */
   #login { min-height: 100vh; display: grid; grid-template-columns: minmax(280px, 1fr) minmax(320px, 520px); }
   .login-lado { background: var(--lado); color: #eaf3f0; padding: 56px 48px; display: flex; flex-direction: column; justify-content: center; gap: 28px; }
   .login-lado .marca { color: #fff; font-size: 30px; }
@@ -61,7 +61,7 @@
   .demo button { background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; font-weight: 600; color: var(--tinta); }
   .aviso { font-size: 13.5px; color: var(--tinta-suave); margin: 0; }
 
-  /* ---------- aplicação ---------- */
+  /*  aplicação */
   header.topo { display: flex; align-items: center; gap: 24px; padding: 10px 24px; background: var(--painel); border-bottom: 1px solid var(--linha); flex-wrap: wrap; }
   .abas { display: flex; gap: 4px; flex: 1; }
   .aba { padding: 8px 14px; border: 0; background: none; border-radius: 6px; font-weight: 600; cursor: pointer; color: var(--tinta-suave); }
@@ -104,7 +104,7 @@
   .itens .so-um { box-shadow: -10px 0 0 -6px #d19a1f; }
   .linha-tempo li { display: grid; grid-template-columns: 96px 1fr auto; }
 
-  /* ---------- análise e auditoria ---------- */
+  /* análise e auditoria  */
   .painel { background: var(--painel); border: 1px solid var(--linha); border-radius: 8px; padding: 24px 28px; margin-bottom: 20px; }
   .painel h2 { font-family: var(--serif); font-size: 26px; margin: 0 0 4px; }
   .painel > p { margin: 0 0 16px; color: var(--tinta-suave); max-width: 80ch; }
@@ -276,7 +276,7 @@
     });
   }
 
-  // ------------------------------------------------------------------ login / sessão
+  // ------------------------------------------ login / sessão
   document.querySelectorAll(".demo button").forEach(function (b) {
     b.addEventListener("click", function () { $("usuario").value = b.dataset.u; $("senha").value = b.dataset.s; $("senha").focus(); });
   });
@@ -359,7 +359,7 @@
     }).catch(function (e) { $("ficha").innerHTML = '<p class="vazio">' + esc(e.message) + '</p>'; });
   }
 
-  // ------------------------------------------------------------------ análise
+  // ------------------------------------------------ análise
   function carregarAnalise() {
     api("/api/analise").then(function (a) {
       var max = Math.max.apply(null, a.alertas_por_tipo.map(function (x) { return x.pacientes; }).concat([1]));
@@ -373,7 +373,7 @@
     }).catch(function (e) { $("aba-analise").innerHTML = '<div class="painel"><p>' + esc(e.message) + '</p></div>'; });
   }
 
-  // ------------------------------------------------------------------ auditoria
+  // ----------------------------------------------- auditoria
   function carregarAuditoria() {
     api("/api/auditoria").then(function (r) {
       $("aba-auditoria").innerHTML = '<div class="painel"><h2>Auditoria de acessos</h2><p>Todo acesso a dados de pacientes fica registrado: quem, quando e o quê. Tentativas negadas também aparecem. Mostrando os 200 eventos mais recentes.</p>' +
@@ -386,3 +386,6 @@
 </script>
 </body>
 </html>
+
+
+:D
