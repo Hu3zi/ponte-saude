@@ -1,0 +1,1525 @@
+{
+  "pacientes": [
+    {
+      "nr_cpf": "16979780298",
+      "nm_pessoa_fisica": "Juliana Moreira Araújo",
+      "ie_sexo": "F",
+      "dt_nascimento": "1990-08-19",
+      "ds_municipio": "Canoas",
+      "ds_alergias": "Sulfa",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Sinvastatina",
+          "ds_dose": "20 mg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "E11",
+          "ds_diagnostico": "Diabetes mellitus tipo 2"
+        },
+        {
+          "cd_cid": "J45",
+          "ds_diagnostico": "Asma"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Tétano (dT)",
+          "dt_aplicacao": "2026-01-29"
+        },
+        {
+          "ds_vacina": "COVID-19",
+          "dt_aplicacao": "2025-04-22"
+        },
+        {
+          "ds_vacina": "Pneumocócica",
+          "dt_aplicacao": "2024-05-15"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2025-08-23",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Consulta ambulatorial",
+          "nm_profissional": "Dr. Marcelo Rocha"
+        },
+        {
+          "dt_atendimento": "2025-02-23",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Consulta ambulatorial",
+          "nm_profissional": "Dr. Marcelo Rocha"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "35161994584",
+      "nm_pessoa_fisica": "Antônio Souza",
+      "ie_sexo": "M",
+      "dt_nascimento": "2002-05-04",
+      "ds_municipio": "Gravataí",
+      "ds_alergias": "Ibuprofeno; Amoxicilina",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Sinvastatina",
+          "ds_dose": "20 mg"
+        },
+        {
+          "ds_medicamento": "Omeprazol",
+          "ds_dose": "20 mg"
+        },
+        {
+          "ds_medicamento": "Levotiroxina",
+          "ds_dose": "50 mcg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "E11",
+          "ds_diagnostico": "Diabetes mellitus tipo 2"
+        },
+        {
+          "cd_cid": "J45",
+          "ds_diagnostico": "Asma"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Hepatite B",
+          "dt_aplicacao": "2026-06-10"
+        },
+        {
+          "ds_vacina": "Pneumocócica",
+          "dt_aplicacao": "2025-01-18"
+        },
+        {
+          "ds_vacina": "Febre amarela",
+          "dt_aplicacao": "2026-01-21"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2025-01-10",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Exame de imagem",
+          "nm_profissional": "Dr. Ricardo Bastos"
+        },
+        {
+          "dt_atendimento": "2025-01-01",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Consulta ambulatorial",
+          "nm_profissional": "Dra. Letícia Vargas"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "80736087230",
+      "nm_pessoa_fisica": "Carla Cardoso Gomes",
+      "ie_sexo": "F",
+      "dt_nascimento": "1983-04-26",
+      "ds_municipio": "Esteio",
+      "ds_alergias": "",
+      "medicacoes": [],
+      "diagnosticos": [
+        {
+          "cd_cid": "E03",
+          "ds_diagnostico": "Hipotireoidismo"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Influenza",
+          "dt_aplicacao": "2024-06-28"
+        },
+        {
+          "ds_vacina": "Pneumocócica",
+          "dt_aplicacao": "2025-08-01"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-10-20",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Internação",
+          "nm_profissional": "Dra. Helena Duarte"
+        },
+        {
+          "dt_atendimento": "2026-01-30",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Exame de imagem",
+          "nm_profissional": "Enf. Cláudia Prates"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "",
+      "nm_pessoa_fisica": "Luís Rodrigues Oliveira",
+      "ie_sexo": "M",
+      "dt_nascimento": "1996-12-22",
+      "ds_municipio": "Esteio",
+      "ds_alergias": "Dipirona",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Losartana",
+          "ds_dose": "50 mg"
+        },
+        {
+          "ds_medicamento": "Levotiroxina",
+          "ds_dose": "50 mcg"
+        },
+        {
+          "ds_medicamento": "Omeprazol",
+          "ds_dose": "20 mg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "E78",
+          "ds_diagnostico": "Dislipidemia"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "COVID-19",
+          "dt_aplicacao": "2026-03-06"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-02-18",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Internação",
+          "nm_profissional": "Dra. Helena Duarte"
+        },
+        {
+          "dt_atendimento": "2026-01-05",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Exame de imagem",
+          "nm_profissional": "Dra. Helena Duarte"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "68669538989",
+      "nm_pessoa_fisica": "Sérgio C. Gomes",
+      "ie_sexo": "M",
+      "dt_nascimento": "1941-03-18",
+      "ds_municipio": "São Leopoldo",
+      "ds_alergias": "Dipirona",
+      "medicacoes": [],
+      "diagnosticos": [],
+      "vacinas": [
+        {
+          "ds_vacina": "COVID-19",
+          "dt_aplicacao": "2025-08-19"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-08-19",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Internação",
+          "nm_profissional": "Dr. Ricardo Bastos"
+        },
+        {
+          "dt_atendimento": "2025-12-01",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Pronto atendimento",
+          "nm_profissional": "Dra. Helena Duarte"
+        },
+        {
+          "dt_atendimento": "2025-01-22",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Consulta ambulatorial",
+          "nm_profissional": "Dr. Marcelo Rocha"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "81780578083",
+      "nm_pessoa_fisica": "Aline Lima Santos",
+      "ie_sexo": "F",
+      "dt_nascimento": "1959-08-10",
+      "ds_municipio": "Gravataí",
+      "ds_alergias": "",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Fluoxetina",
+          "ds_dose": "20 mg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "E03",
+          "ds_diagnostico": "Hipotireoidismo"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Febre amarela",
+          "dt_aplicacao": "2025-10-05"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2025-04-24",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Consulta ambulatorial",
+          "nm_profissional": "Dra. Helena Duarte"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "20624431703",
+      "nm_pessoa_fisica": "Gabriel Lima Ribeiro",
+      "ie_sexo": "M",
+      "dt_nascimento": "1986-05-02",
+      "ds_municipio": "Novo Hamburgo",
+      "ds_alergias": "",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Dipirona",
+          "ds_dose": "500 mg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "M54",
+          "ds_diagnostico": "Dorsalgia"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Hepatite B",
+          "dt_aplicacao": "2024-12-12"
+        },
+        {
+          "ds_vacina": "Tétano (dT)",
+          "dt_aplicacao": "2024-07-14"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-05-06",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Internação",
+          "nm_profissional": "Enf. Tiago Moura"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "20511482957",
+      "nm_pessoa_fisica": "João Lima Souza",
+      "ie_sexo": "M",
+      "dt_nascimento": "1971-10-20",
+      "ds_municipio": "São Leopoldo",
+      "ds_alergias": "Frutos do mar; Penicilina",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Metformina",
+          "ds_dose": "850 mg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "E11",
+          "ds_diagnostico": "Diabetes mellitus tipo 2"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "COVID-19",
+          "dt_aplicacao": "2024-10-12"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-05-03",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Consulta ambulatorial",
+          "nm_profissional": "Dra. Letícia Vargas"
+        },
+        {
+          "dt_atendimento": "2025-11-27",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Internação",
+          "nm_profissional": "Enf. Cláudia Prates"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "52807001505",
+      "nm_pessoa_fisica": "Carlos Araújo Zanella",
+      "ie_sexo": "M",
+      "dt_nascimento": "1953-11-27",
+      "ds_municipio": "Viamão",
+      "ds_alergias": "",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Atenolol",
+          "ds_dose": "25 mg"
+        },
+        {
+          "ds_medicamento": "Salbutamol",
+          "ds_dose": "100 mcg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "E03",
+          "ds_diagnostico": "Hipotireoidismo"
+        },
+        {
+          "cd_cid": "J45",
+          "ds_diagnostico": "Asma"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "COVID-19",
+          "dt_aplicacao": "2025-03-07"
+        },
+        {
+          "ds_vacina": "Hepatite B",
+          "dt_aplicacao": "2025-01-17"
+        },
+        {
+          "ds_vacina": "Tétano (dT)",
+          "dt_aplicacao": "2025-05-25"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-03-23",
+          "ds_unidade": "Pronto Atendimento 24h Centro",
+          "ds_tipo": "Internação",
+          "nm_profissional": "Dra. Helena Duarte"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "18898704127",
+      "nm_pessoa_fisica": "José Gomes Santos",
+      "ie_sexo": "M",
+      "dt_nascimento": "1998-01-25",
+      "ds_municipio": "Cachoeirinha",
+      "ds_alergias": "",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Fluoxetina",
+          "ds_dose": "20 mg"
+        },
+        {
+          "ds_medicamento": "Atenolol",
+          "ds_dose": "25 mg"
+        },
+        {
+          "ds_medicamento": "Omeprazol",
+          "ds_dose": "20 mg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "E78",
+          "ds_diagnostico": "Dislipidemia"
+        },
+        {
+          "cd_cid": "I10",
+          "ds_diagnostico": "Hipertensão essencial"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Febre amarela",
+          "dt_aplicacao": "2024-10-26"
+        },
+        {
+          "ds_vacina": "COVID-19",
+          "dt_aplicacao": "2025-02-05"
+        },
+        {
+          "ds_vacina": "Influenza",
+          "dt_aplicacao": "2025-08-14"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-03-21",
+          "ds_unidade": "Pronto Atendimento 24h Centro",
+          "ds_tipo": "Consulta ambulatorial",
+          "nm_profissional": "Enf. Tiago Moura"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "70441047548",
+      "nm_pessoa_fisica": "Rosângela T. Martins",
+      "ie_sexo": "F",
+      "dt_nascimento": "1981-11-07",
+      "ds_municipio": "São Leopoldo",
+      "ds_alergias": "Frutos do mar",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Omeprazol",
+          "ds_dose": "20 mg"
+        },
+        {
+          "ds_medicamento": "Sinvastatina",
+          "ds_dose": "20 mg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "I10",
+          "ds_diagnostico": "Hipertensão essencial"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Hepatite B",
+          "dt_aplicacao": "2024-07-28"
+        },
+        {
+          "ds_vacina": "COVID-19",
+          "dt_aplicacao": "2025-05-26"
+        },
+        {
+          "ds_vacina": "Pneumocócica",
+          "dt_aplicacao": "2025-12-19"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-07-22",
+          "ds_unidade": "Pronto Atendimento 24h Centro",
+          "ds_tipo": "Exame de imagem",
+          "nm_profissional": "Dr. Ricardo Bastos"
+        },
+        {
+          "dt_atendimento": "2025-04-01",
+          "ds_unidade": "Pronto Atendimento 24h Centro",
+          "ds_tipo": "Pronto atendimento",
+          "nm_profissional": "Enf. Tiago Moura"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "792.232.838-92",
+      "nm_pessoa_fisica": "Ana da Silva Martins",
+      "ie_sexo": "F",
+      "dt_nascimento": "1948-01-07",
+      "ds_municipio": "Novo Hamburgo",
+      "ds_alergias": "Penicilina",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Fluoxetina",
+          "ds_dose": "20 mg"
+        },
+        {
+          "ds_medicamento": "Metformina",
+          "ds_dose": "850 mg"
+        },
+        {
+          "ds_medicamento": "Enalapril",
+          "ds_dose": "10 mg"
+        }
+      ],
+      "diagnosticos": [],
+      "vacinas": [
+        {
+          "ds_vacina": "Influenza",
+          "dt_aplicacao": "2024-12-25"
+        },
+        {
+          "ds_vacina": "Tétano (dT)",
+          "dt_aplicacao": "2025-07-29"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-06-29",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Internação",
+          "nm_profissional": "Enf. Cláudia Prates"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "55485066330",
+      "nm_pessoa_fisica": "João Zanella Gomes",
+      "ie_sexo": "M",
+      "dt_nascimento": "1982-03-05",
+      "ds_municipio": "Novo Hamburgo",
+      "ds_alergias": "Dipirona",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Atenolol",
+          "ds_dose": "25 mg"
+        },
+        {
+          "ds_medicamento": "Salbutamol",
+          "ds_dose": "100 mcg"
+        },
+        {
+          "ds_medicamento": "Fluoxetina",
+          "ds_dose": "20 mg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "M54",
+          "ds_diagnostico": "Dorsalgia"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Tétano (dT)",
+          "dt_aplicacao": "2025-04-19"
+        },
+        {
+          "ds_vacina": "Pneumocócica",
+          "dt_aplicacao": "2024-06-21"
+        },
+        {
+          "ds_vacina": "COVID-19",
+          "dt_aplicacao": "2026-04-09"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-06-08",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Internação",
+          "nm_profissional": "Dra. Letícia Vargas"
+        },
+        {
+          "dt_atendimento": "2026-03-10",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Pronto atendimento",
+          "nm_profissional": "Enf. Tiago Moura"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "",
+      "nm_pessoa_fisica": "Pedro Machado Carvalho",
+      "ie_sexo": "M",
+      "dt_nascimento": "1950-12-01",
+      "ds_municipio": "Cachoeirinha",
+      "ds_alergias": "Ibuprofeno",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Fluoxetina",
+          "ds_dose": "20 mg"
+        },
+        {
+          "ds_medicamento": "Salbutamol",
+          "ds_dose": "100 mcg"
+        },
+        {
+          "ds_medicamento": "Metformina",
+          "ds_dose": "850 mg"
+        }
+      ],
+      "diagnosticos": [],
+      "vacinas": [
+        {
+          "ds_vacina": "Tétano (dT)",
+          "dt_aplicacao": "2026-02-22"
+        },
+        {
+          "ds_vacina": "Hepatite B",
+          "dt_aplicacao": "2025-01-16"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2025-07-11",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Internação",
+          "nm_profissional": "Enf. Tiago Moura"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "38759211512",
+      "nm_pessoa_fisica": "Pedro Machado Souza",
+      "ie_sexo": "M",
+      "dt_nascimento": "2014-03-06",
+      "ds_municipio": "Viamão",
+      "ds_alergias": "",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Enalapril",
+          "ds_dose": "10 mg"
+        },
+        {
+          "ds_medicamento": "Levotiroxina",
+          "ds_dose": "50 mcg"
+        },
+        {
+          "ds_medicamento": "Fluoxetina",
+          "ds_dose": "20 mg"
+        }
+      ],
+      "diagnosticos": [],
+      "vacinas": [
+        {
+          "ds_vacina": "Tétano (dT)",
+          "dt_aplicacao": "2026-03-29"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2025-11-01",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Pronto atendimento",
+          "nm_profissional": "Dr. Marcelo Rocha"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "79223283892",
+      "nm_pessoa_fisica": "Ana da Silva Martins",
+      "ie_sexo": "F",
+      "dt_nascimento": "1948-01-07",
+      "ds_municipio": "Novo Hamburgo",
+      "ds_alergias": "Penicilina",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Fluoxetina",
+          "ds_dose": "20 mg"
+        },
+        {
+          "ds_medicamento": "Metformina",
+          "ds_dose": "850 mg"
+        },
+        {
+          "ds_medicamento": "Enalapril",
+          "ds_dose": "10 mg"
+        }
+      ],
+      "diagnosticos": [],
+      "vacinas": [
+        {
+          "ds_vacina": "Influenza",
+          "dt_aplicacao": "2024-12-25"
+        },
+        {
+          "ds_vacina": "Tétano (dT)",
+          "dt_aplicacao": "2025-07-29"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-06-29",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Internação",
+          "nm_profissional": "Enf. Cláudia Prates"
+        },
+        {
+          "dt_atendimento": "2025-03-24",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Exame de imagem",
+          "nm_profissional": "Dra. Helena Duarte"
+        },
+        {
+          "dt_atendimento": "2025-02-27",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Exame de imagem",
+          "nm_profissional": "Dr. Marcelo Rocha"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "",
+      "nm_pessoa_fisica": "Pedro Carvalho Martins",
+      "ie_sexo": "M",
+      "dt_nascimento": "1980-08-18",
+      "ds_municipio": "Esteio",
+      "ds_alergias": "Amoxicilina",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Sinvastatina",
+          "ds_dose": "20 mg"
+        },
+        {
+          "ds_medicamento": "Fluoxetina",
+          "ds_dose": "20 mg"
+        },
+        {
+          "ds_medicamento": "Losartana",
+          "ds_dose": "50 mg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "E11",
+          "ds_diagnostico": "Diabetes mellitus tipo 2"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Influenza",
+          "dt_aplicacao": "2026-02-08"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-06-28",
+          "ds_unidade": "Pronto Atendimento 24h Centro",
+          "ds_tipo": "Pronto atendimento",
+          "nm_profissional": "Dra. Helena Duarte"
+        },
+        {
+          "dt_atendimento": "2026-06-18",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Consulta ambulatorial",
+          "nm_profissional": "Dr. Marcelo Rocha"
+        },
+        {
+          "dt_atendimento": "2025-02-05",
+          "ds_unidade": "Pronto Atendimento 24h Centro",
+          "ds_tipo": "Pronto atendimento",
+          "nm_profissional": "Enf. Cláudia Prates"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "05200700973",
+      "nm_pessoa_fisica": "Juliana Santos Silva",
+      "ie_sexo": "F",
+      "dt_nascimento": "2004-03-31",
+      "ds_municipio": "Porto Alegre",
+      "ds_alergias": "Látex; Dipirona",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Enalapril",
+          "ds_dose": "10 mg"
+        },
+        {
+          "ds_medicamento": "Metformina",
+          "ds_dose": "850 mg"
+        },
+        {
+          "ds_medicamento": "Omeprazol",
+          "ds_dose": "20 mg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "M54",
+          "ds_diagnostico": "Dorsalgia"
+        },
+        {
+          "cd_cid": "I10",
+          "ds_diagnostico": "Hipertensão essencial"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Hepatite B",
+          "dt_aplicacao": "2025-08-16"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-09-26",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Internação",
+          "nm_profissional": "Dra. Helena Duarte"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "22713831296",
+      "nm_pessoa_fisica": "Eduardo Moreira Martins",
+      "ie_sexo": "M",
+      "dt_nascimento": "1992-12-13",
+      "ds_municipio": "Gravataí",
+      "ds_alergias": "",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Dipirona",
+          "ds_dose": "500 mg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "F32",
+          "ds_diagnostico": "Episódio depressivo"
+        },
+        {
+          "cd_cid": "M54",
+          "ds_diagnostico": "Dorsalgia"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Tétano (dT)",
+          "dt_aplicacao": "2026-06-23"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-08-07",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Exame de imagem",
+          "nm_profissional": "Dra. Letícia Vargas"
+        },
+        {
+          "dt_atendimento": "2026-02-03",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Pronto atendimento",
+          "nm_profissional": "Dra. Helena Duarte"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "58450074886",
+      "nm_pessoa_fisica": "Luís Santos Cardoso",
+      "ie_sexo": "M",
+      "dt_nascimento": "1978-08-03",
+      "ds_municipio": "Porto Alegre",
+      "ds_alergias": "Sulfa; Penicilina",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Fluoxetina",
+          "ds_dose": "20 mg"
+        },
+        {
+          "ds_medicamento": "Metformina",
+          "ds_dose": "850 mg"
+        },
+        {
+          "ds_medicamento": "Sinvastatina",
+          "ds_dose": "20 mg"
+        },
+        {
+          "ds_medicamento": "Enalapril",
+          "ds_dose": "10 mg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "M54",
+          "ds_diagnostico": "Dorsalgia"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Pneumocócica",
+          "dt_aplicacao": "2026-07-26"
+        },
+        {
+          "ds_vacina": "Febre amarela",
+          "dt_aplicacao": "2026-09-15"
+        },
+        {
+          "ds_vacina": "Tétano (dT)",
+          "dt_aplicacao": "2026-07-20"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-01-29",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Consulta ambulatorial",
+          "nm_profissional": "Dra. Helena Duarte"
+        },
+        {
+          "dt_atendimento": "2025-10-15",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Exame de imagem",
+          "nm_profissional": "Dr. Ricardo Bastos"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "26607568998",
+      "nm_pessoa_fisica": "Luís Barbosa Costa",
+      "ie_sexo": "M",
+      "dt_nascimento": "2013-07-07",
+      "ds_municipio": "Cachoeirinha",
+      "ds_alergias": "",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Losartana",
+          "ds_dose": "50 mg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "E03",
+          "ds_diagnostico": "Hipotireoidismo"
+        },
+        {
+          "cd_cid": "F32",
+          "ds_diagnostico": "Episódio depressivo"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "COVID-19",
+          "dt_aplicacao": "2025-05-09"
+        },
+        {
+          "ds_vacina": "Febre amarela",
+          "dt_aplicacao": "2026-07-02"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-10-08",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Consulta ambulatorial",
+          "nm_profissional": "Dra. Letícia Vargas"
+        },
+        {
+          "dt_atendimento": "2026-10-03",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Internação",
+          "nm_profissional": "Dra. Letícia Vargas"
+        },
+        {
+          "dt_atendimento": "2026-06-17",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Pronto atendimento",
+          "nm_profissional": "Dr. Ricardo Bastos"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "61754420168",
+      "nm_pessoa_fisica": "Eduardo de Souza Ferreira",
+      "ie_sexo": "M",
+      "dt_nascimento": "1963-03-09",
+      "ds_municipio": "Viamão",
+      "ds_alergias": "Frutos do mar; Ibuprofeno",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Fluoxetina",
+          "ds_dose": "20 mg"
+        },
+        {
+          "ds_medicamento": "Omeprazol",
+          "ds_dose": "20 mg"
+        }
+      ],
+      "diagnosticos": [],
+      "vacinas": [
+        {
+          "ds_vacina": "Pneumocócica",
+          "dt_aplicacao": "2024-09-26"
+        },
+        {
+          "ds_vacina": "Febre amarela",
+          "dt_aplicacao": "2025-05-14"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-08-04",
+          "ds_unidade": "Pronto Atendimento 24h Centro",
+          "ds_tipo": "Pronto atendimento",
+          "nm_profissional": "Dr. Ricardo Bastos"
+        },
+        {
+          "dt_atendimento": "2025-07-06",
+          "ds_unidade": "Pronto Atendimento 24h Centro",
+          "ds_tipo": "Pronto atendimento",
+          "nm_profissional": "Enf. Tiago Moura"
+        },
+        {
+          "dt_atendimento": "2025-02-20",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Consulta ambulatorial",
+          "nm_profissional": "Dr. Marcelo Rocha"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "88283472879",
+      "nm_pessoa_fisica": "Luciana da Silva Araújo",
+      "ie_sexo": "F",
+      "dt_nascimento": "1978-06-27",
+      "ds_municipio": "Porto Alegre",
+      "ds_alergias": "",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Sinvastatina",
+          "ds_dose": "20 mg"
+        },
+        {
+          "ds_medicamento": "Atenolol",
+          "ds_dose": "25 mg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "J45",
+          "ds_diagnostico": "Asma"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Pneumocócica",
+          "dt_aplicacao": "2025-06-19"
+        },
+        {
+          "ds_vacina": "Hepatite B",
+          "dt_aplicacao": "2026-04-11"
+        },
+        {
+          "ds_vacina": "COVID-19",
+          "dt_aplicacao": "2026-03-23"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-09-26",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Internação",
+          "nm_profissional": "Dra. Letícia Vargas"
+        },
+        {
+          "dt_atendimento": "2026-09-01",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Internação",
+          "nm_profissional": "Dr. Ricardo Bastos"
+        },
+        {
+          "dt_atendimento": "2025-01-07",
+          "ds_unidade": "Pronto Atendimento 24h Centro",
+          "ds_tipo": "Consulta ambulatorial",
+          "nm_profissional": "Dra. Letícia Vargas"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "27465501300",
+      "nm_pessoa_fisica": "Rodrigo F. Rodrigues",
+      "ie_sexo": "M",
+      "dt_nascimento": "1959-11-13",
+      "ds_municipio": "São Leopoldo",
+      "ds_alergias": "Dipirona",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Levotiroxina",
+          "ds_dose": "50 mcg"
+        },
+        {
+          "ds_medicamento": "Fluoxetina",
+          "ds_dose": "20 mg"
+        },
+        {
+          "ds_medicamento": "Losartana",
+          "ds_dose": "50 mg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "F32",
+          "ds_diagnostico": "Episódio depressivo"
+        },
+        {
+          "cd_cid": "I10",
+          "ds_diagnostico": "Hipertensão essencial"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Hepatite B",
+          "dt_aplicacao": "2026-01-14"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2025-01-21",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Internação",
+          "nm_profissional": "Dr. Marcelo Rocha"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "212.363.608-85",
+      "nm_pessoa_fisica": "Vera Zanella Teixeira",
+      "ie_sexo": "F",
+      "dt_nascimento": "2001-09-18",
+      "ds_municipio": "Novo Hamburgo",
+      "ds_alergias": "Penicilina; Amoxicilina",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Salbutamol",
+          "ds_dose": "100 mcg"
+        },
+        {
+          "ds_medicamento": "Losartana",
+          "ds_dose": "50 mg"
+        },
+        {
+          "ds_medicamento": "Levotiroxina",
+          "ds_dose": "50 mcg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "M54",
+          "ds_diagnostico": "Dorsalgia"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Pneumocócica",
+          "dt_aplicacao": "2025-06-15"
+        },
+        {
+          "ds_vacina": "Influenza",
+          "dt_aplicacao": "2025-06-08"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2025-12-26",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Pronto atendimento",
+          "nm_profissional": "Dra. Letícia Vargas"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "21980334617",
+      "nm_pessoa_fisica": "Luís Ribeiro Almeida",
+      "ie_sexo": "M",
+      "dt_nascimento": "1968-02-04",
+      "ds_municipio": "Gravataí",
+      "ds_alergias": "Látex; Ibuprofeno",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Levotiroxina",
+          "ds_dose": "50 mcg"
+        },
+        {
+          "ds_medicamento": "Enalapril",
+          "ds_dose": "10 mg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "E11",
+          "ds_diagnostico": "Diabetes mellitus tipo 2"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Hepatite B",
+          "dt_aplicacao": "2025-11-27"
+        },
+        {
+          "ds_vacina": "Influenza",
+          "dt_aplicacao": "2026-04-10"
+        },
+        {
+          "ds_vacina": "COVID-19",
+          "dt_aplicacao": "2024-05-15"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-09-18",
+          "ds_unidade": "Pronto Atendimento 24h Centro",
+          "ds_tipo": "Exame de imagem",
+          "nm_profissional": "Dra. Letícia Vargas"
+        },
+        {
+          "dt_atendimento": "2025-12-24",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Internação",
+          "nm_profissional": "Enf. Tiago Moura"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "21025490975",
+      "nm_pessoa_fisica": "Paulo Teixeira Machado",
+      "ie_sexo": "M",
+      "dt_nascimento": "1996-12-21",
+      "ds_municipio": "São Leopoldo",
+      "ds_alergias": "Sulfa",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Omeprazol",
+          "ds_dose": "20 mg"
+        },
+        {
+          "ds_medicamento": "Enalapril",
+          "ds_dose": "10 mg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "E78",
+          "ds_diagnostico": "Dislipidemia"
+        },
+        {
+          "cd_cid": "F32",
+          "ds_diagnostico": "Episódio depressivo"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Febre amarela",
+          "dt_aplicacao": "2026-06-24"
+        },
+        {
+          "ds_vacina": "Hepatite B",
+          "dt_aplicacao": "2025-07-30"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2025-10-03",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Exame de imagem",
+          "nm_profissional": "Dra. Letícia Vargas"
+        },
+        {
+          "dt_atendimento": "2025-02-12",
+          "ds_unidade": "Pronto Atendimento 24h Centro",
+          "ds_tipo": "Pronto atendimento",
+          "nm_profissional": "Enf. Tiago Moura"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "04263716744",
+      "nm_pessoa_fisica": "João Ferreira",
+      "ie_sexo": "M",
+      "dt_nascimento": "1940-04-22",
+      "ds_municipio": "Novo Hamburgo",
+      "ds_alergias": "Frutos do mar; Ibuprofeno",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Losartana",
+          "ds_dose": "50 mg"
+        },
+        {
+          "ds_medicamento": "Levotiroxina",
+          "ds_dose": "50 mcg"
+        },
+        {
+          "ds_medicamento": "Salbutamol",
+          "ds_dose": "100 mcg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "F32",
+          "ds_diagnostico": "Episódio depressivo"
+        },
+        {
+          "cd_cid": "E78",
+          "ds_diagnostico": "Dislipidemia"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Febre amarela",
+          "dt_aplicacao": "2024-10-03"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-06-22",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Pronto atendimento",
+          "nm_profissional": "Dr. Marcelo Rocha"
+        },
+        {
+          "dt_atendimento": "2025-03-07",
+          "ds_unidade": "Pronto Atendimento 24h Centro",
+          "ds_tipo": "Pronto atendimento",
+          "nm_profissional": "Enf. Cláudia Prates"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "59148335401",
+      "nm_pessoa_fisica": "Vera Gomes Oliveira",
+      "ie_sexo": "F",
+      "dt_nascimento": "1940-11-24",
+      "ds_municipio": "São Leopoldo",
+      "ds_alergias": "Amoxicilina; Sulfa",
+      "medicacoes": [],
+      "diagnosticos": [
+        {
+          "cd_cid": "J45",
+          "ds_diagnostico": "Asma"
+        },
+        {
+          "cd_cid": "F32",
+          "ds_diagnostico": "Episódio depressivo"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Tétano (dT)",
+          "dt_aplicacao": "2026-03-22"
+        },
+        {
+          "ds_vacina": "Hepatite B",
+          "dt_aplicacao": "2024-08-13"
+        },
+        {
+          "ds_vacina": "COVID-19",
+          "dt_aplicacao": "2026-04-01"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-03-08",
+          "ds_unidade": "Pronto Atendimento 24h Centro",
+          "ds_tipo": "Exame de imagem",
+          "nm_profissional": "Dr. Ricardo Bastos"
+        },
+        {
+          "dt_atendimento": "2025-01-13",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Exame de imagem",
+          "nm_profissional": "Dr. Marcelo Rocha"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "21236360885",
+      "nm_pessoa_fisica": "Vera Zanella Teixeira",
+      "ie_sexo": "F",
+      "dt_nascimento": "2001-09-18",
+      "ds_municipio": "Novo Hamburgo",
+      "ds_alergias": "Penicilina; Amoxicilina",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Salbutamol",
+          "ds_dose": "100 mcg"
+        },
+        {
+          "ds_medicamento": "Losartana",
+          "ds_dose": "50 mg"
+        },
+        {
+          "ds_medicamento": "Levotiroxina",
+          "ds_dose": "50 mcg"
+        }
+      ],
+      "diagnosticos": [
+        {
+          "cd_cid": "M54",
+          "ds_diagnostico": "Dorsalgia"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "Pneumocócica",
+          "dt_aplicacao": "2025-06-15"
+        },
+        {
+          "ds_vacina": "Influenza",
+          "dt_aplicacao": "2025-06-08"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2025-12-26",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Pronto atendimento",
+          "nm_profissional": "Dra. Letícia Vargas"
+        },
+        {
+          "dt_atendimento": "2025-04-14",
+          "ds_unidade": "Pronto Atendimento 24h Centro",
+          "ds_tipo": "Pronto atendimento",
+          "nm_profissional": "Enf. Cláudia Prates"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "52791372946",
+      "nm_pessoa_fisica": "Rosângela Barbosa Silva",
+      "ie_sexo": "F",
+      "dt_nascimento": "1942-07-24",
+      "ds_municipio": "Gravataí",
+      "ds_alergias": "",
+      "medicacoes": [
+        {
+          "ds_medicamento": "Losartana",
+          "ds_dose": "50 mg"
+        },
+        {
+          "ds_medicamento": "Enalapril",
+          "ds_dose": "10 mg"
+        },
+        {
+          "ds_medicamento": "Sinvastatina",
+          "ds_dose": "20 mg"
+        }
+      ],
+      "diagnosticos": [],
+      "vacinas": [
+        {
+          "ds_vacina": "COVID-19",
+          "dt_aplicacao": "2024-06-01"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2025-08-02",
+          "ds_unidade": "Hospital Regional Sul",
+          "ds_tipo": "Exame de imagem",
+          "nm_profissional": "Enf. Cláudia Prates"
+        },
+        {
+          "dt_atendimento": "2025-07-28",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Consulta ambulatorial",
+          "nm_profissional": "Enf. Cláudia Prates"
+        }
+      ]
+    },
+    {
+      "nr_cpf": "80465873030",
+      "nm_pessoa_fisica": "Marta S. Pereira",
+      "ie_sexo": "F",
+      "dt_nascimento": "1979-07-19",
+      "ds_municipio": "Viamão",
+      "ds_alergias": "",
+      "medicacoes": [],
+      "diagnosticos": [
+        {
+          "cd_cid": "M54",
+          "ds_diagnostico": "Dorsalgia"
+        }
+      ],
+      "vacinas": [
+        {
+          "ds_vacina": "COVID-19",
+          "dt_aplicacao": "2025-07-17"
+        }
+      ],
+      "atendimentos": [
+        {
+          "dt_atendimento": "2026-07-12",
+          "ds_unidade": "Hospital Municipal Esperança",
+          "ds_tipo": "Consulta ambulatorial",
+          "nm_profissional": "Dr. Ricardo Bastos"
+        },
+        {
+          "dt_atendimento": "2026-05-15",
+          "ds_unidade": "Pronto Atendimento 24h Centro",
+          "ds_tipo": "Exame de imagem",
+          "nm_profissional": "Dra. Helena Duarte"
+        }
+      ]
+    }
+  ]
+}

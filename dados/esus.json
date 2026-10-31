@@ -1,0 +1,1932 @@
+{
+  "cidadaos": [
+    {
+      "cns": "710550087547517",
+      "cpf": "662.836.016-42",
+      "nome": "PATRÍCIA CARDOSO ALMEIDA",
+      "sexo": "F",
+      "data_nascimento": "19/07/1985",
+      "municipio": "Viamão",
+      "alergias": [
+        "Látex",
+        "Penicilina"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Fluoxetina",
+          "dose": "20 mg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "E03",
+          "descricao": "Hipotireoidismo"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Hepatite B",
+          "data": "05/11/2024"
+        },
+        {
+          "nome": "Tétano (dT)",
+          "data": "03/10/2024"
+        },
+        {
+          "nome": "COVID-19",
+          "data": "21/07/2026"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "01/05/2026",
+          "unidade": "UBS Vila Nova",
+          "tipo": "Consulta de rotina",
+          "profissional": "Dr. Ricardo Bastos"
+        },
+        {
+          "data": "12/09/2025",
+          "unidade": "UBS Vila Nova",
+          "tipo": "Renovação de receita",
+          "profissional": "Enf. Tiago Moura"
+        },
+        {
+          "data": "07/01/2025",
+          "unidade": "UBS Centro",
+          "tipo": "Acompanhamento de crônicos",
+          "profissional": "Enf. Tiago Moura"
+        }
+      ]
+    },
+    {
+      "cns": "708196727317784",
+      "cpf": "697.880.932-21",
+      "nome": "ANDRÉ GOMES MOREIRA",
+      "sexo": "M",
+      "data_nascimento": "16/03/1963",
+      "municipio": "Cachoeirinha",
+      "alergias": [
+        "Látex"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Salbutamol",
+          "dose": "100 mcg"
+        },
+        {
+          "nome": "Fluoxetina",
+          "dose": "20 mg"
+        },
+        {
+          "nome": "Metformina",
+          "dose": "850 mg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "M54",
+          "descricao": "Dorsalgia"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Influenza",
+          "data": "30/04/2026"
+        },
+        {
+          "nome": "Pneumocócica",
+          "data": "28/11/2024"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "04/04/2026",
+          "unidade": "UBS Restinga",
+          "tipo": "Acompanhamento de crônicos",
+          "profissional": "Dr. Ricardo Bastos"
+        },
+        {
+          "data": "13/07/2025",
+          "unidade": "UBS Cidade Baixa",
+          "tipo": "Acompanhamento de crônicos",
+          "profissional": "Enf. Cláudia Prates"
+        },
+        {
+          "data": "20/05/2025",
+          "unidade": "UBS Santa Rosa",
+          "tipo": "Acompanhamento de crônicos",
+          "profissional": "Dra. Letícia Vargas"
+        }
+      ]
+    },
+    {
+      "cns": "751676825973481",
+      "cpf": "554.850.663-30",
+      "nome": "JOÃO ZANELLA GOMES",
+      "sexo": "M",
+      "data_nascimento": "28/03/1982",
+      "municipio": "Novo Hamburgo",
+      "alergias": [
+        "Dipirona"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Atenolol",
+          "dose": "25 mg"
+        },
+        {
+          "nome": "Salbutamol",
+          "dose": "100 mcg"
+        },
+        {
+          "nome": "Fluoxetina",
+          "dose": "20 mg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "M54",
+          "descricao": "Dorsalgia"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Tétano (dT)",
+          "data": "19/04/2025"
+        },
+        {
+          "nome": "Pneumocócica",
+          "data": "21/06/2024"
+        },
+        {
+          "nome": "COVID-19",
+          "data": "09/04/2026"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "30/09/2026",
+          "unidade": "UBS Cidade Baixa",
+          "tipo": "Renovação de receita",
+          "profissional": "Dra. Helena Duarte"
+        },
+        {
+          "data": "03/05/2025",
+          "unidade": "UBS Centro",
+          "tipo": "Visita domiciliar",
+          "profissional": "Dr. Marcelo Rocha"
+        },
+        {
+          "data": "17/01/2025",
+          "unidade": "UBS Centro",
+          "tipo": "Consulta de rotina",
+          "profissional": "Enf. Tiago Moura"
+        }
+      ]
+    },
+    {
+      "cns": "735213629586398",
+      "cpf": "219.803.346-17",
+      "nome": "LUÍS RIBEIRO ALMEIDA",
+      "sexo": "M",
+      "data_nascimento": "04/02/1968",
+      "municipio": "Gravataí",
+      "alergias": [
+        "Látex",
+        "Ibuprofeno",
+        "Frutos do mar"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Levotiroxina",
+          "dose": "50 mcg"
+        },
+        {
+          "nome": "Enalapril",
+          "dose": "10 mg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "E11",
+          "descricao": "Diabetes mellitus tipo 2"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Hepatite B",
+          "data": "27/11/2025"
+        },
+        {
+          "nome": "Influenza",
+          "data": "10/04/2026"
+        },
+        {
+          "nome": "COVID-19",
+          "data": "15/05/2024"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "06/10/2025",
+          "unidade": "UBS Santa Rosa",
+          "tipo": "Consulta de rotina",
+          "profissional": "Dra. Letícia Vargas"
+        },
+        {
+          "data": "08/12/2024",
+          "unidade": "UBS Cidade Baixa",
+          "tipo": "Renovação de receita",
+          "profissional": "Dr. Ricardo Bastos"
+        }
+      ]
+    },
+    {
+      "cns": "780886423004876",
+      "cpf": "566.636.322-05",
+      "nome": "JOÃO MARTINS CARDOSO",
+      "sexo": "M",
+      "data_nascimento": "01/05/1951",
+      "municipio": "Gravataí",
+      "alergias": [
+        "Penicilina"
+      ],
+      "medicamentos_uso": [],
+      "condicoes": [
+        {
+          "cid": "F32",
+          "descricao": "Episódio depressivo"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Pneumocócica",
+          "data": "09/06/2024"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "27/08/2026",
+          "unidade": "UBS Centro",
+          "tipo": "Renovação de receita",
+          "profissional": "Enf. Tiago Moura"
+        },
+        {
+          "data": "27/01/2026",
+          "unidade": "UBS Restinga",
+          "tipo": "Visita domiciliar",
+          "profissional": "Dra. Helena Duarte"
+        },
+        {
+          "data": "21/12/2024",
+          "unidade": "UBS Vila Nova",
+          "tipo": "Renovação de receita",
+          "profissional": "Dr. Ricardo Bastos"
+        }
+      ]
+    },
+    {
+      "cns": "718835795111744",
+      "cpf": "164.941.577-00",
+      "nome": "TATIANE RIBEIRO SOUZA",
+      "sexo": "F",
+      "data_nascimento": "10/03/2005",
+      "municipio": "São Leopoldo",
+      "alergias": [],
+      "medicamentos_uso": [
+        {
+          "nome": "Salbutamol",
+          "dose": "100 mcg"
+        },
+        {
+          "nome": "Levotiroxina",
+          "dose": "50 mcg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "E78",
+          "descricao": "Dislipidemia"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Tétano (dT)",
+          "data": "03/04/2026"
+        },
+        {
+          "nome": "Pneumocócica",
+          "data": "13/03/2026"
+        },
+        {
+          "nome": "Hepatite B",
+          "data": "27/06/2024"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "14/03/2026",
+          "unidade": "UBS Restinga",
+          "tipo": "Visita domiciliar",
+          "profissional": "Dr. Ricardo Bastos"
+        },
+        {
+          "data": "28/02/2025",
+          "unidade": "UBS Santa Rosa",
+          "tipo": "Renovação de receita",
+          "profissional": "Dr. Marcelo Rocha"
+        }
+      ]
+    },
+    {
+      "cns": "741621052185491",
+      "cpf": "939.494.821-05",
+      "nome": "FERNANDA TEIXEIRA RODRIGUES",
+      "sexo": "F",
+      "data_nascimento": "11/11/1989",
+      "municipio": "Gravataí",
+      "alergias": [
+        "Penicilina"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Sinvastatina",
+          "dose": "20 mg"
+        },
+        {
+          "nome": "Metformina",
+          "dose": "850 mg"
+        }
+      ],
+      "condicoes": [],
+      "vacinas": [
+        {
+          "nome": "Hepatite B",
+          "data": "15/09/2026"
+        },
+        {
+          "nome": "Tétano (dT)",
+          "data": "03/08/2026"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "27/02/2026",
+          "unidade": "UBS Vila Nova",
+          "tipo": "Visita domiciliar",
+          "profissional": "Dra. Helena Duarte"
+        }
+      ]
+    },
+    {
+      "cns": "717039273305703",
+      "cpf": "052.007.009-73",
+      "nome": "JULIANA SANTOS SILVA",
+      "sexo": "F",
+      "data_nascimento": "31/03/2004",
+      "municipio": "Porto Alegre",
+      "alergias": [
+        "Látex"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Enalapril",
+          "dose": "10 mg"
+        },
+        {
+          "nome": "Metformina",
+          "dose": "850 mg"
+        },
+        {
+          "nome": "Omeprazol",
+          "dose": "20 mg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "M54",
+          "descricao": "Dorsalgia"
+        },
+        {
+          "cid": "I10",
+          "descricao": "Hipertensão essencial"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Hepatite B",
+          "data": "16/08/2025"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "26/10/2025",
+          "unidade": "UBS Vila Nova",
+          "tipo": "Consulta de rotina",
+          "profissional": "Dra. Helena Duarte"
+        }
+      ]
+    },
+    {
+      "cns": "765164807882039",
+      "cpf": "266.075.689-98",
+      "nome": "LUÍS BARBOSA COSTA",
+      "sexo": "M",
+      "data_nascimento": "07/07/2013",
+      "municipio": "Cachoeirinha",
+      "alergias": [
+        "Penicilina"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Losartana",
+          "dose": "50 mg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "E03",
+          "descricao": "Hipotireoidismo"
+        },
+        {
+          "cid": "F32",
+          "descricao": "Episódio depressivo"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "COVID-19",
+          "data": "09/05/2025"
+        },
+        {
+          "nome": "Febre amarela",
+          "data": "02/07/2026"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "19/10/2026",
+          "unidade": "UBS Vila Nova",
+          "tipo": "Acompanhamento de crônicos",
+          "profissional": "Dr. Ricardo Bastos"
+        }
+      ]
+    },
+    {
+      "cns": "764248296017967",
+      "cpf": "804.658.730-30",
+      "nome": "MARTA SANTOS PEREIRA",
+      "sexo": "F",
+      "data_nascimento": "19/07/1979",
+      "municipio": "Viamão",
+      "alergias": [],
+      "medicamentos_uso": [],
+      "condicoes": [
+        {
+          "cid": "M54",
+          "descricao": "Dorsalgia"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "COVID-19",
+          "data": "17/07/2025"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "22/01/2026",
+          "unidade": "UBS Santa Rosa",
+          "tipo": "Renovação de receita",
+          "profissional": "Dr. Marcelo Rocha"
+        }
+      ]
+    },
+    {
+      "cns": "716425247764725",
+      "cpf": "822.264.686-92",
+      "nome": "PATRÍCIA MACHADO MOREIRA",
+      "sexo": "F",
+      "data_nascimento": "16/08/1959",
+      "municipio": "Viamão",
+      "alergias": [
+        "Dipirona"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Metformina",
+          "dose": "850 mg"
+        },
+        {
+          "nome": "Omeprazol",
+          "dose": "20 mg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "I10",
+          "descricao": "Hipertensão essencial"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Tétano (dT)",
+          "data": "08/12/2024"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "30/10/2025",
+          "unidade": "UBS Centro",
+          "tipo": "Visita domiciliar",
+          "profissional": "Dra. Letícia Vargas"
+        },
+        {
+          "data": "03/09/2025",
+          "unidade": "UBS Cidade Baixa",
+          "tipo": "Renovação de receita",
+          "profissional": "Dra. Helena Duarte"
+        }
+      ]
+    },
+    {
+      "cns": "741834190823861",
+      "cpf": "205.114.829-57",
+      "nome": "JOÃO LIMA SOUZA",
+      "sexo": "M",
+      "data_nascimento": "20/10/1971",
+      "municipio": "São Leopoldo",
+      "alergias": [
+        "Frutos do mar"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Metformina",
+          "dose": "850 mg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "E11",
+          "descricao": "Diabetes mellitus tipo 2"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "COVID-19",
+          "data": "12/10/2024"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "08/09/2026",
+          "unidade": "UBS Restinga",
+          "tipo": "Consulta de rotina",
+          "profissional": "Enf. Cláudia Prates"
+        },
+        {
+          "data": "28/04/2025",
+          "unidade": "UBS Santa Rosa",
+          "tipo": "Acompanhamento de crônicos",
+          "profissional": "Dr. Ricardo Bastos"
+        },
+        {
+          "data": "14/12/2024",
+          "unidade": "UBS Santa Rosa",
+          "tipo": "Renovação de receita",
+          "profissional": "Dr. Ricardo Bastos"
+        }
+      ]
+    },
+    {
+      "cns": "726309765828025",
+      "cpf": "093.244.845-32",
+      "nome": "RODRIGO BARBOSA RODRIGUES",
+      "sexo": "M",
+      "data_nascimento": "06/11/1967",
+      "municipio": "Novo Hamburgo",
+      "alergias": [],
+      "medicamentos_uso": [],
+      "condicoes": [],
+      "vacinas": [
+        {
+          "nome": "Pneumocócica",
+          "data": "27/07/2026"
+        },
+        {
+          "nome": "Influenza",
+          "data": "19/09/2025"
+        },
+        {
+          "nome": "Hepatite B",
+          "data": "25/11/2025"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "29/04/2025",
+          "unidade": "UBS Centro",
+          "tipo": "Renovação de receita",
+          "profissional": "Dr. Marcelo Rocha"
+        }
+      ]
+    },
+    {
+      "cns": "747056709048801",
+      "cpf": "959.650.565-32",
+      "nome": "PEDRO CARVALHO MARTINS",
+      "sexo": "M",
+      "data_nascimento": "18/08/1980",
+      "municipio": "Esteio",
+      "alergias": [
+        "Amoxicilina"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Sinvastatina",
+          "dose": "20 mg"
+        },
+        {
+          "nome": "Fluoxetina",
+          "dose": "20 mg"
+        },
+        {
+          "nome": "Losartana",
+          "dose": "50 mg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "E11",
+          "descricao": "Diabetes mellitus tipo 2"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Influenza",
+          "data": "08/02/2026"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "05/09/2026",
+          "unidade": "UBS Restinga",
+          "tipo": "Acompanhamento de crônicos",
+          "profissional": "Dra. Helena Duarte"
+        }
+      ]
+    },
+    {
+      "cns": "716886561141082",
+      "cpf": "704.410.475-48",
+      "nome": "ROSÂNGELA TEIXEIRA MARTINS",
+      "sexo": "F",
+      "data_nascimento": "07/11/1981",
+      "municipio": "São Leopoldo",
+      "alergias": [
+        "Frutos do mar"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Omeprazol",
+          "dose": "20 mg"
+        },
+        {
+          "nome": "Sinvastatina",
+          "dose": "20 mg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "I10",
+          "descricao": "Hipertensão essencial"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Hepatite B",
+          "data": "28/07/2024"
+        },
+        {
+          "nome": "COVID-19",
+          "data": "26/05/2025"
+        },
+        {
+          "nome": "Pneumocócica",
+          "data": "19/12/2025"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "26/01/2026",
+          "unidade": "UBS Santa Rosa",
+          "tipo": "Consulta de rotina",
+          "profissional": "Dr. Marcelo Rocha"
+        },
+        {
+          "data": "13/05/2025",
+          "unidade": "UBS Vila Nova",
+          "tipo": "Renovação de receita",
+          "profissional": "Enf. Cláudia Prates"
+        }
+      ]
+    },
+    {
+      "cns": "794715029529207",
+      "cpf": "227.138.312-96",
+      "nome": "EDUARDO MOREIRA MARTINS",
+      "sexo": "M",
+      "data_nascimento": "13/12/1992",
+      "municipio": "Gravataí",
+      "alergias": [
+        "Dipirona"
+      ],
+      "medicamentos_uso": [],
+      "condicoes": [
+        {
+          "cid": "F32",
+          "descricao": "Episódio depressivo"
+        },
+        {
+          "cid": "M54",
+          "descricao": "Dorsalgia"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Tétano (dT)",
+          "data": "23/06/2026"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "24/05/2026",
+          "unidade": "UBS Santa Rosa",
+          "tipo": "Consulta de rotina",
+          "profissional": "Enf. Tiago Moura"
+        },
+        {
+          "data": "07/09/2025",
+          "unidade": "UBS Centro",
+          "tipo": "Visita domiciliar",
+          "profissional": "Enf. Cláudia Prates"
+        }
+      ]
+    },
+    {
+      "cns": "765013327967268",
+      "cpf": "686.695.389-89",
+      "nome": "SÉRGIO CARVALHO GOMES",
+      "sexo": "M",
+      "data_nascimento": "18/03/1941",
+      "municipio": "São Leopoldo",
+      "alergias": [
+        "Dipirona"
+      ],
+      "medicamentos_uso": [],
+      "condicoes": [],
+      "vacinas": [
+        {
+          "nome": "COVID-19",
+          "data": "19/08/2025"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "14/07/2025",
+          "unidade": "UBS Cidade Baixa",
+          "tipo": "Visita domiciliar",
+          "profissional": "Enf. Tiago Moura"
+        }
+      ]
+    },
+    {
+      "cns": "746133800530514",
+      "cpf": "617.544.201-68",
+      "nome": "EDUARDO DE SOUZA FERREIRA",
+      "sexo": "M",
+      "data_nascimento": "09/03/1963",
+      "municipio": "Viamão",
+      "alergias": [
+        "Frutos do mar",
+        "Ibuprofeno",
+        "Látex"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Fluoxetina",
+          "dose": "20 mg"
+        },
+        {
+          "nome": "Omeprazol",
+          "dose": "20 mg"
+        }
+      ],
+      "condicoes": [],
+      "vacinas": [
+        {
+          "nome": "Pneumocócica",
+          "data": "26/09/2024"
+        },
+        {
+          "nome": "Febre amarela",
+          "data": "14/05/2025"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "12/06/2025",
+          "unidade": "UBS Santa Rosa",
+          "tipo": "Consulta de rotina",
+          "profissional": "Enf. Tiago Moura"
+        },
+        {
+          "data": "19/04/2025",
+          "unidade": "UBS Restinga",
+          "tipo": "Visita domiciliar",
+          "profissional": "Dr. Ricardo Bastos"
+        },
+        {
+          "data": "28/12/2024",
+          "unidade": "UBS Restinga",
+          "tipo": "Visita domiciliar",
+          "profissional": "Dr. Marcelo Rocha"
+        }
+      ]
+    },
+    {
+      "cns": "751006371711243",
+      "cpf": "274.655.013-00",
+      "nome": "RODRIGO FERREIRA RODRIGUES",
+      "sexo": "M",
+      "data_nascimento": "13/11/1959",
+      "municipio": "São Leopoldo",
+      "alergias": [
+        "Dipirona"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Levotiroxina",
+          "dose": "50 mcg"
+        },
+        {
+          "nome": "Fluoxetina",
+          "dose": "20 mg"
+        },
+        {
+          "nome": "Losartana",
+          "dose": "50 mg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "F32",
+          "descricao": "Episódio depressivo"
+        },
+        {
+          "cid": "I10",
+          "descricao": "Hipertensão essencial"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Hepatite B",
+          "data": "14/01/2026"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "07/07/2026",
+          "unidade": "UBS Santa Rosa",
+          "tipo": "Consulta de rotina",
+          "profissional": "Dra. Helena Duarte"
+        }
+      ]
+    },
+    {
+      "cns": "747139360550496",
+      "cpf": "297.447.660-00",
+      "nome": "LUÍS RODRIGUES OLIVEIRA",
+      "sexo": "M",
+      "data_nascimento": "22/12/1996",
+      "municipio": "Esteio",
+      "alergias": [
+        "Dipirona"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Losartana",
+          "dose": "50 mg"
+        },
+        {
+          "nome": "Levotiroxina",
+          "dose": "50 mcg"
+        },
+        {
+          "nome": "Omeprazol",
+          "dose": "20 mg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "E78",
+          "descricao": "Dislipidemia"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "COVID-19",
+          "data": "06/03/2026"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "15/10/2026",
+          "unidade": "UBS Cidade Baixa",
+          "tipo": "Acompanhamento de crônicos",
+          "profissional": "Enf. Cláudia Prates"
+        },
+        {
+          "data": "06/07/2025",
+          "unidade": "UBS Cidade Baixa",
+          "tipo": "Renovação de receita",
+          "profissional": "Dr. Ricardo Bastos"
+        },
+        {
+          "data": "17/04/2025",
+          "unidade": "UBS Santa Rosa",
+          "tipo": "Acompanhamento de crônicos",
+          "profissional": "Dra. Helena Duarte"
+        }
+      ]
+    },
+    {
+      "cns": "749518380125373",
+      "cpf": "031.450.378-11",
+      "nome": "LUÍS RIBEIRO NASCIMENTO",
+      "sexo": "M",
+      "data_nascimento": "20/01/1941",
+      "municipio": "Novo Hamburgo",
+      "alergias": [
+        "Dipirona"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Fluoxetina",
+          "dose": "20 mg"
+        },
+        {
+          "nome": "Atenolol",
+          "dose": "25 mg"
+        },
+        {
+          "nome": "Losartana",
+          "dose": "50 mg"
+        }
+      ],
+      "condicoes": [],
+      "vacinas": [
+        {
+          "nome": "Tétano (dT)",
+          "data": "25/03/2026"
+        },
+        {
+          "nome": "Influenza",
+          "data": "16/03/2025"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "04/12/2025",
+          "unidade": "UBS Cidade Baixa",
+          "tipo": "Acompanhamento de crônicos",
+          "profissional": "Enf. Cláudia Prates"
+        },
+        {
+          "data": "18/05/2025",
+          "unidade": "UBS Centro",
+          "tipo": "Acompanhamento de crônicos",
+          "profissional": "Enf. Tiago Moura"
+        },
+        {
+          "data": "16/12/2024",
+          "unidade": "UBS Restinga",
+          "tipo": "Visita domiciliar",
+          "profissional": "Enf. Cláudia Prates"
+        }
+      ]
+    },
+    {
+      "cns": "751481013315604",
+      "cpf": "584.500.748-86",
+      "nome": "LUÍS SANTOS CARDOSO",
+      "sexo": "M",
+      "data_nascimento": "03/08/1978",
+      "municipio": "Porto Alegre",
+      "alergias": [
+        "Sulfa",
+        "Penicilina"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Fluoxetina",
+          "dose": "20 mg"
+        },
+        {
+          "nome": "Metformina",
+          "dose": "850 mg"
+        },
+        {
+          "nome": "Sinvastatina",
+          "dose": "20 mg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "M54",
+          "descricao": "Dorsalgia"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Pneumocócica",
+          "data": "26/07/2026"
+        },
+        {
+          "nome": "Febre amarela",
+          "data": "15/09/2026"
+        },
+        {
+          "nome": "Tétano (dT)",
+          "data": "20/07/2026"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "30/06/2026",
+          "unidade": "UBS Cidade Baixa",
+          "tipo": "Visita domiciliar",
+          "profissional": "Enf. Tiago Moura"
+        }
+      ]
+    },
+    {
+      "cns": "774664323167779",
+      "cpf": "206.244.317-03",
+      "nome": "GABRIEL LIMA RIBEIRO",
+      "sexo": "M",
+      "data_nascimento": "02/05/1986",
+      "municipio": "Novo Hamburgo",
+      "alergias": [
+        "Dipirona"
+      ],
+      "medicamentos_uso": [],
+      "condicoes": [
+        {
+          "cid": "M54",
+          "descricao": "Dorsalgia"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Hepatite B",
+          "data": "12/12/2024"
+        },
+        {
+          "nome": "Tétano (dT)",
+          "data": "14/07/2024"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "29/04/2025",
+          "unidade": "UBS Cidade Baixa",
+          "tipo": "Consulta de rotina",
+          "profissional": "Dr. Marcelo Rocha"
+        },
+        {
+          "data": "07/01/2025",
+          "unidade": "UBS Restinga",
+          "tipo": "Renovação de receita",
+          "profissional": "Dra. Helena Duarte"
+        },
+        {
+          "data": "21/12/2024",
+          "unidade": "UBS Santa Rosa",
+          "tipo": "Acompanhamento de crônicos",
+          "profissional": "Dr. Marcelo Rocha"
+        }
+      ]
+    },
+    {
+      "cns": "773091141707536",
+      "cpf": "399.869.879-54",
+      "nome": "TATIANE MOREIRA MACHADO",
+      "sexo": "F",
+      "data_nascimento": "17/03/1949",
+      "municipio": "Gravataí",
+      "alergias": [
+        "Amoxicilina"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Fluoxetina",
+          "dose": "20 mg"
+        },
+        {
+          "nome": "Metformina",
+          "dose": "850 mg"
+        },
+        {
+          "nome": "Levotiroxina",
+          "dose": "50 mcg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "I10",
+          "descricao": "Hipertensão essencial"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Febre amarela",
+          "data": "19/06/2025"
+        },
+        {
+          "nome": "Hepatite B",
+          "data": "09/05/2026"
+        },
+        {
+          "nome": "Pneumocócica",
+          "data": "09/12/2024"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "25/07/2026",
+          "unidade": "UBS Santa Rosa",
+          "tipo": "Acompanhamento de crônicos",
+          "profissional": "Dra. Helena Duarte"
+        },
+        {
+          "data": "13/10/2025",
+          "unidade": "UBS Restinga",
+          "tipo": "Acompanhamento de crônicos",
+          "profissional": "Dr. Ricardo Bastos"
+        },
+        {
+          "data": "13/03/2025",
+          "unidade": "UBS Restinga",
+          "tipo": "Consulta de rotina",
+          "profissional": "Enf. Tiago Moura"
+        }
+      ]
+    },
+    {
+      "cns": "773091141707536",
+      "cpf": "399.869.879-54",
+      "nome": "TATIANE MOREIRA MACHADO",
+      "sexo": "F",
+      "data_nascimento": "17/03/1949",
+      "municipio": "Gravataí",
+      "alergias": [
+        "Amoxicilina"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Fluoxetina",
+          "dose": "20 mg"
+        },
+        {
+          "nome": "Metformina",
+          "dose": "850 mg"
+        },
+        {
+          "nome": "Levotiroxina",
+          "dose": "50 mcg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "I10",
+          "descricao": "Hipertensão essencial"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Febre amarela",
+          "data": "19/06/2025"
+        },
+        {
+          "nome": "Hepatite B",
+          "data": "09/05/2026"
+        },
+        {
+          "nome": "Pneumocócica",
+          "data": "09/12/2024"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "25/07/2026",
+          "unidade": "UBS Santa Rosa",
+          "tipo": "Acompanhamento de crônicos",
+          "profissional": "Dra. Helena Duarte"
+        }
+      ]
+    },
+    {
+      "cns": "715846450604541",
+      "cpf": "906.593.976-84",
+      "nome": "VERA NASCIMENTO ARAÚJO",
+      "sexo": "F",
+      "data_nascimento": "24/06/1994",
+      "municipio": "Gravataí",
+      "alergias": [
+        "Amoxicilina"
+      ],
+      "medicamentos_uso": [],
+      "condicoes": [
+        {
+          "cid": "E11",
+          "descricao": "Diabetes mellitus tipo 2"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Influenza",
+          "data": "05/01/2025"
+        },
+        {
+          "nome": "Pneumocócica",
+          "data": "28/05/2026"
+        },
+        {
+          "nome": "COVID-19",
+          "data": "01/06/2026"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "19/06/2026",
+          "unidade": "UBS Cidade Baixa",
+          "tipo": "Visita domiciliar",
+          "profissional": "Dra. Letícia Vargas"
+        }
+      ]
+    },
+    {
+      "cns": "726309765828025",
+      "cpf": "093.244.845-32",
+      "nome": "RODRIGO BARBOSA RODRIGUES",
+      "sexo": "M",
+      "data_nascimento": "06/11/1967",
+      "municipio": "Novo Hamburgo",
+      "alergias": [],
+      "medicamentos_uso": [],
+      "condicoes": [],
+      "vacinas": [
+        {
+          "nome": "Pneumocócica",
+          "data": "27/07/2026"
+        },
+        {
+          "nome": "Influenza",
+          "data": "19/09/2025"
+        },
+        {
+          "nome": "Hepatite B",
+          "data": "25/11/2025"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "29/04/2025",
+          "unidade": "UBS Centro",
+          "tipo": "Renovação de receita",
+          "profissional": "Dr. Marcelo Rocha"
+        }
+      ]
+    },
+    {
+      "cns": "748643906188479",
+      "cpf": "720.754.735-87",
+      "nome": "RODRIGO RODRIGUES SANTOS",
+      "sexo": "M",
+      "data_nascimento": "27/09/1997",
+      "municipio": "Canoas",
+      "alergias": [
+        "Látex",
+        "Frutos do mar"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Enalapril",
+          "dose": "10 mg"
+        },
+        {
+          "nome": "Levotiroxina",
+          "dose": "50 mcg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "J45",
+          "descricao": "Asma"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Influenza",
+          "data": "04/03/2025"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "04/02/2026",
+          "unidade": "UBS Cidade Baixa",
+          "tipo": "Acompanhamento de crônicos",
+          "profissional": "Enf. Tiago Moura"
+        }
+      ]
+    },
+    {
+      "cns": "715529301267081",
+      "cpf": "042.637.167-44",
+      "nome": "JOÃO MACHADO FERREIRA",
+      "sexo": "M",
+      "data_nascimento": "22/04/1940",
+      "municipio": "Novo Hamburgo",
+      "alergias": [
+        "Frutos do mar",
+        "Ibuprofeno"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Losartana",
+          "dose": "50 mg"
+        },
+        {
+          "nome": "Levotiroxina",
+          "dose": "50 mcg"
+        },
+        {
+          "nome": "Salbutamol",
+          "dose": "100 mcg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "F32",
+          "descricao": "Episódio depressivo"
+        },
+        {
+          "cid": "E78",
+          "descricao": "Dislipidemia"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Febre amarela",
+          "data": "03/10/2024"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "16/06/2026",
+          "unidade": "UBS Santa Rosa",
+          "tipo": "Consulta de rotina",
+          "profissional": "Dra. Letícia Vargas"
+        },
+        {
+          "data": "05/05/2026",
+          "unidade": "UBS Centro",
+          "tipo": "Consulta de rotina",
+          "profissional": "Enf. Tiago Moura"
+        },
+        {
+          "data": "14/04/2026",
+          "unidade": "UBS Centro",
+          "tipo": "Acompanhamento de crônicos",
+          "profissional": "Dra. Helena Duarte"
+        }
+      ]
+    },
+    {
+      "cns": "732771862107617",
+      "cpf": "387.592.115-12",
+      "nome": "PEDRO MACHADO SOUZA",
+      "sexo": "M",
+      "data_nascimento": "03/03/2014",
+      "municipio": "Viamão",
+      "alergias": [],
+      "medicamentos_uso": [
+        {
+          "nome": "Enalapril",
+          "dose": "10 mg"
+        },
+        {
+          "nome": "Levotiroxina",
+          "dose": "50 mcg"
+        },
+        {
+          "nome": "Fluoxetina",
+          "dose": "20 mg"
+        }
+      ],
+      "condicoes": [],
+      "vacinas": [
+        {
+          "nome": "Tétano (dT)",
+          "data": "29/03/2026"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "15/04/2025",
+          "unidade": "UBS Cidade Baixa",
+          "tipo": "Renovação de receita",
+          "profissional": "Dr. Ricardo Bastos"
+        },
+        {
+          "data": "08/01/2025",
+          "unidade": "UBS Vila Nova",
+          "tipo": "Visita domiciliar",
+          "profissional": "Enf. Tiago Moura"
+        }
+      ]
+    },
+    {
+      "cns": "747513627010798",
+      "cpf": "178.472.671-01",
+      "nome": "ROSÂNGELA NASCIMENTO ARAÚJO",
+      "sexo": "F",
+      "data_nascimento": "02/11/2012",
+      "municipio": "Canoas",
+      "alergias": [
+        "Frutos do mar",
+        "Penicilina"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Metformina",
+          "dose": "850 mg"
+        }
+      ],
+      "condicoes": [],
+      "vacinas": [
+        {
+          "nome": "Hepatite B",
+          "data": "25/09/2026"
+        },
+        {
+          "nome": "Pneumocócica",
+          "data": "14/11/2025"
+        },
+        {
+          "nome": "COVID-19",
+          "data": "19/11/2024"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "11/03/2026",
+          "unidade": "UBS Santa Rosa",
+          "tipo": "Renovação de receita",
+          "profissional": "Dra. Letícia Vargas"
+        },
+        {
+          "data": "27/05/2025",
+          "unidade": "UBS Restinga",
+          "tipo": "Consulta de rotina",
+          "profissional": "Dr. Ricardo Bastos"
+        },
+        {
+          "data": "16/03/2025",
+          "unidade": "UBS Santa Rosa",
+          "tipo": "Renovação de receita",
+          "profissional": "Dra. Letícia Vargas"
+        }
+      ]
+    },
+    {
+      "cns": "741621052185491",
+      "cpf": "939.494.821-05",
+      "nome": "FERNANDA TEIXEIRA RODRIGUES",
+      "sexo": "F",
+      "data_nascimento": "11/11/1989",
+      "municipio": "Gravataí",
+      "alergias": [
+        "Penicilina"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Sinvastatina",
+          "dose": "20 mg"
+        },
+        {
+          "nome": "Metformina",
+          "dose": "850 mg"
+        }
+      ],
+      "condicoes": [],
+      "vacinas": [
+        {
+          "nome": "Hepatite B",
+          "data": "15/09/2026"
+        },
+        {
+          "nome": "Tétano (dT)",
+          "data": "03/08/2026"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "27/02/2026",
+          "unidade": "UBS Vila Nova",
+          "tipo": "Visita domiciliar",
+          "profissional": "Dra. Helena Duarte"
+        }
+      ]
+    },
+    {
+      "cns": "721889049953142",
+      "cpf": "210.254.909-75",
+      "nome": "PAULO TEIXEIRA MACHADO",
+      "sexo": "M",
+      "data_nascimento": "21/12/1996",
+      "municipio": "São Leopoldo",
+      "alergias": [
+        "Sulfa"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Omeprazol",
+          "dose": "20 mg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "E78",
+          "descricao": "Dislipidemia"
+        },
+        {
+          "cid": "F32",
+          "descricao": "Episódio depressivo"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Febre amarela",
+          "data": "24/06/2026"
+        },
+        {
+          "nome": "Hepatite B",
+          "data": "30/07/2025"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "25/11/2025",
+          "unidade": "UBS Restinga",
+          "tipo": "Renovação de receita",
+          "profissional": "Enf. Cláudia Prates"
+        },
+        {
+          "data": "10/07/2025",
+          "unidade": "UBS Restinga",
+          "tipo": "Visita domiciliar",
+          "profissional": "Enf. Tiago Moura"
+        },
+        {
+          "data": "23/05/2025",
+          "unidade": "UBS Vila Nova",
+          "tipo": "Visita domiciliar",
+          "profissional": "Dra. Letícia Vargas"
+        }
+      ]
+    },
+    {
+      "cns": "769943982864089",
+      "cpf": "351.619.945-84",
+      "nome": "ANTÔNIO MARTINS SOUZA",
+      "sexo": "M",
+      "data_nascimento": "04/05/2002",
+      "municipio": "Gravataí",
+      "alergias": [
+        "Ibuprofeno",
+        "Amoxicilina"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Sinvastatina",
+          "dose": "20 mg"
+        },
+        {
+          "nome": "Omeprazol",
+          "dose": "20 mg"
+        },
+        {
+          "nome": "Levotiroxina",
+          "dose": "50 mcg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "E11",
+          "descricao": "Diabetes mellitus tipo 2"
+        },
+        {
+          "cid": "J45",
+          "descricao": "Asma"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Hepatite B",
+          "data": "10/06/2026"
+        },
+        {
+          "nome": "Pneumocócica",
+          "data": "18/01/2025"
+        },
+        {
+          "nome": "Febre amarela",
+          "data": "21/01/2026"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "06/04/2026",
+          "unidade": "UBS Cidade Baixa",
+          "tipo": "Visita domiciliar",
+          "profissional": "Enf. Tiago Moura"
+        }
+      ]
+    },
+    {
+      "cns": "752814497660856",
+      "cpf": "154.742.843-06",
+      "nome": "LUCAS MARTINS RODRIGUES",
+      "sexo": "M",
+      "data_nascimento": "06/07/1969",
+      "municipio": "Esteio",
+      "alergias": [],
+      "medicamentos_uso": [
+        {
+          "nome": "Fluoxetina",
+          "dose": "20 mg"
+        },
+        {
+          "nome": "Omeprazol",
+          "dose": "20 mg"
+        },
+        {
+          "nome": "Enalapril",
+          "dose": "10 mg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "E78",
+          "descricao": "Dislipidemia"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Influenza",
+          "data": "19/09/2024"
+        },
+        {
+          "nome": "Tétano (dT)",
+          "data": "06/04/2026"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "25/01/2026",
+          "unidade": "UBS Cidade Baixa",
+          "tipo": "Visita domiciliar",
+          "profissional": "Dr. Marcelo Rocha"
+        }
+      ]
+    },
+    {
+      "cns": "714881813785222",
+      "cpf": "591.483.354-01",
+      "nome": "VERA GOMES OLIVEIRA",
+      "sexo": "F",
+      "data_nascimento": "24/11/1940",
+      "municipio": "São Leopoldo",
+      "alergias": [
+        "Amoxicilina",
+        "Sulfa",
+        "Ibuprofeno"
+      ],
+      "medicamentos_uso": [],
+      "condicoes": [
+        {
+          "cid": "J45",
+          "descricao": "Asma"
+        },
+        {
+          "cid": "F32",
+          "descricao": "Episódio depressivo"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Tétano (dT)",
+          "data": "22/03/2026"
+        },
+        {
+          "nome": "Hepatite B",
+          "data": "13/08/2024"
+        },
+        {
+          "nome": "COVID-19",
+          "data": "01/04/2026"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "05/01/2026",
+          "unidade": "UBS Cidade Baixa",
+          "tipo": "Consulta de rotina",
+          "profissional": "Dra. Letícia Vargas"
+        },
+        {
+          "data": "27/06/2025",
+          "unidade": "UBS Vila Nova",
+          "tipo": "Renovação de receita",
+          "profissional": "Dra. Letícia Vargas"
+        }
+      ]
+    },
+    {
+      "cns": "732627058602145",
+      "cpf": "355.778.794-00",
+      "nome": "SÉRGIO COSTA BARBOSA",
+      "sexo": "M",
+      "data_nascimento": "31/10/1970",
+      "municipio": "Gravataí",
+      "alergias": [],
+      "medicamentos_uso": [],
+      "condicoes": [],
+      "vacinas": [
+        {
+          "nome": "COVID-19",
+          "data": "21/02/2025"
+        },
+        {
+          "nome": "Febre amarela",
+          "data": "16/08/2026"
+        },
+        {
+          "nome": "Hepatite B",
+          "data": "24/08/2025"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "10/07/2026",
+          "unidade": "UBS Vila Nova",
+          "tipo": "Renovação de receita",
+          "profissional": "Enf. Tiago Moura"
+        },
+        {
+          "data": "22/04/2025",
+          "unidade": "UBS Cidade Baixa",
+          "tipo": "Renovação de receita",
+          "profissional": "Dra. Letícia Vargas"
+        }
+      ]
+    },
+    {
+      "cns": "751780133252695",
+      "cpf": "188.987.041-27",
+      "nome": "JOSÉ GOMES SANTOS",
+      "sexo": "M",
+      "data_nascimento": "25/01/1998",
+      "municipio": "Cachoeirinha",
+      "alergias": [
+        "Látex"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Fluoxetina",
+          "dose": "20 mg"
+        },
+        {
+          "nome": "Atenolol",
+          "dose": "25 mg"
+        },
+        {
+          "nome": "Omeprazol",
+          "dose": "20 mg"
+        }
+      ],
+      "condicoes": [
+        {
+          "cid": "E78",
+          "descricao": "Dislipidemia"
+        },
+        {
+          "cid": "I10",
+          "descricao": "Hipertensão essencial"
+        }
+      ],
+      "vacinas": [
+        {
+          "nome": "Febre amarela",
+          "data": "26/10/2024"
+        },
+        {
+          "nome": "COVID-19",
+          "data": "05/02/2025"
+        },
+        {
+          "nome": "Influenza",
+          "data": "14/08/2025"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "06/07/2026",
+          "unidade": "UBS Centro",
+          "tipo": "Consulta de rotina",
+          "profissional": "Dr. Marcelo Rocha"
+        },
+        {
+          "data": "16/07/2025",
+          "unidade": "UBS Vila Nova",
+          "tipo": "Consulta de rotina",
+          "profissional": "Dr. Marcelo Rocha"
+        },
+        {
+          "data": "02/05/2025",
+          "unidade": "UBS Restinga",
+          "tipo": "Acompanhamento de crônicos",
+          "profissional": "Dra. Helena Duarte"
+        }
+      ]
+    },
+    {
+      "cns": "701087526239424",
+      "cpf": "413.633.437-00",
+      "nome": "PEDRO MACHADO CARVALHO",
+      "sexo": "M",
+      "data_nascimento": "01/12/1950",
+      "municipio": "Cachoeirinha",
+      "alergias": [
+        "Ibuprofeno"
+      ],
+      "medicamentos_uso": [
+        {
+          "nome": "Fluoxetina",
+          "dose": "20 mg"
+        },
+        {
+          "nome": "Salbutamol",
+          "dose": "100 mcg"
+        },
+        {
+          "nome": "Metformina",
+          "dose": "850 mg"
+        }
+      ],
+      "condicoes": [],
+      "vacinas": [
+        {
+          "nome": "Tétano (dT)",
+          "data": "22/02/2026"
+        },
+        {
+          "nome": "Hepatite B",
+          "data": "16/01/2025"
+        }
+      ],
+      "atendimentos": [
+        {
+          "data": "26/07/2026",
+          "unidade": "UBS Centro",
+          "tipo": "Visita domiciliar",
+          "profissional": "Dr. Marcelo Rocha"
+        },
+        {
+          "data": "05/12/2025",
+          "unidade": "UBS Centro",
+          "tipo": "Visita domiciliar",
+          "profissional": "Dra. Letícia Vargas"
+        },
+        {
+          "data": "21/02/2025",
+          "unidade": "UBS Cidade Baixa",
+          "tipo": "Acompanhamento de crônicos",
+          "profissional": "Enf. Cláudia Prates"
+        }
+      ]
+    }
+  ]
+}

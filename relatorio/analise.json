@@ -1,0 +1,60 @@
+{
+  "gerado_em": "2026-10-30 16:44",
+  "registros_esus": 39,
+  "registros_tasy": 32,
+  "registros_total": 71,
+  "pacientes_unificados": 44,
+  "registros_redundantes_eliminados": 27,
+  "pacientes_so_esus": 14,
+  "pacientes_so_tasy": 8,
+  "pacientes_em_ambos": 22,
+  "pacientes_com_alerta": 25,
+  "percentual_ambos_com_alerta": 90.9,
+  "registros_sem_cpf_valido_esus": 0,
+  "registros_sem_cpf_valido_tasy": 3,
+  "alertas_por_tipo": [
+    {
+      "tipo": "alergia_unica_fonte",
+      "rotulo": "Alergia registrada em apenas um sistema",
+      "pacientes": 9,
+      "causa": "A alergia foi informada em um atendimento (UBS ou hospital) e não foi replicada ao outro sistema."
+    },
+    {
+      "tipo": "nome_divergente",
+      "rotulo": "Nome escrito de formas diferentes",
+      "pacientes": 6,
+      "causa": "Abreviações, sobrenomes omitidos e uso de maiúsculas/acentos diferentes entre os sistemas."
+    },
+    {
+      "tipo": "cadastro_duplicado",
+      "rotulo": "Cadastro duplicado no mesmo sistema",
+      "pacientes": 5,
+      "causa": "Novo cadastro criado por não encontrar o paciente na busca (ou busca feita só por nome)."
+    },
+    {
+      "tipo": "cpf_ausente",
+      "rotulo": "CPF ausente ou inválido",
+      "pacientes": 3,
+      "causa": "Campo não obrigatório na recepção; paciente atendido sem documento."
+    },
+    {
+      "tipo": "medicamento_alergia",
+      "rotulo": "Medicamento em uso x alergia registrada",
+      "pacientes": 2,
+      "causa": "Cada sistema guarda a alergia e a prescrição em módulos separados; sem integração, ninguém cruza as duas informações."
+    },
+    {
+      "tipo": "nascimento_divergente",
+      "rotulo": "Data de nascimento divergente",
+      "pacientes": 2,
+      "causa": "Digitação manual na entrada de dados, sem validação cruzada com outras bases."
+    }
+  ],
+  "oportunidades": [
+    "Tornar CPF/CNS obrigatório e validar os dígitos verificadores na entrada do cadastro.",
+    "Consultar o prontuário unificado antes de criar um novo cadastro (evita duplicidades).",
+    "Padronizar o campo de alergias (lista controlada em vez de texto livre).",
+    "Alertar o prescritor quando um medicamento conflitar com alergia registrada em qualquer sistema.",
+    "Adotar o padrão HL7 FHIR como formato de troca de dados entre os sistemas."
+  ]
+}

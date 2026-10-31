@@ -1,0 +1,1 @@
+# Nenhuma dependência externa: o projeto usa apenas a biblioteca padrão do Python 3.8+.

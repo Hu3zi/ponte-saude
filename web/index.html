@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ponte Saúde</title>
+<style>
+  :root {
+    --tinta: #16282e; --tinta-suave: #4d6168; --papel: #eef3f1; --painel: #ffffff;
+    --linha: #d3dfdb; --esus: #0e7c6b; --esus-fundo: #dcf1ec; --tasy: #4448b4; --tasy-fundo: #e5e6f8;
+    --critico: #b3261e; --critico-fundo: #fbe4e1; --atencao: #8a5a00; --atencao-fundo: #fff0cf;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { height: 100%; }
+  body { margin: 0; min-height: 100%; background: var(--papel); color: var(--tinta); font: 16px/1.5 var(--sans); }
+  button, input { font: inherit; color: inherit; }
+  :focus-visible { outline: 3px solid #1b6ef3; outline-offset: 2px; }
+  .oculto { display: none !important; }
+
+  /* ---------- marca ---------- */
+  .marca { display: flex; align-items: center; gap: 10px; font-family: var(--serif); font-size: 22px; font-weight: 700; letter-spacing: .2px; }
+  .marca svg { width: 34px; height: 34px; flex: none; }
+
+  /* ---------- fontes (e-SUS / Tasy) ---------- */
+  .fonte { display: inline-flex; align-items: center; gap: 5px; padding: 1px 8px 1px 6px; border-radius: 99px; font-size: 12.5px; font-weight: 600; line-height: 1.6; white-space: nowrap; }
+  .fonte::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+  .fonte.esus { color: var(--esus); background: var(--esus-fundo); }
+  .fonte.tasy { color: var(--tasy); background: var(--tasy-fundo); }
+  .fontes { display: inline-flex; gap: 4px; flex-wrap: wrap; }
+
+  /* ---------- login ---------- */
+  #login { min-height: 100vh; display: grid; grid-template-columns: minmax(280px, 1fr) minmax(320px, 520px); }
+  .login-lado { background: var(--tinta); color: #eaf3f0; padding: 56px 48px; display: flex; flex-direction: column; justify-content: center; gap: 28px; }
+  .login-lado .marca { color: #fff; font-size: 30px; }
+  .login-lado .marca svg { width: 46px; height: 46px; }
+  .login-lado p { margin: 0; max-width: 34ch; font-size: 19px; line-height: 1.45; color: #cfe2dc; }
+  .duas-margens { display: flex; align-items: center; gap: 12px; }
+  .duas-margens .fonte { font-size: 14px; }
+  .duas-margens .ponte { flex: 1; max-width: 140px; height: 18px; border-top: 3px solid #8fb7ac; border-radius: 50% 50% 0 0 / 100% 100% 0 0; }
+  .login-form { padding: 56px 44px; display: flex; flex-direction: column; justify-content: center; gap: 18px; background: var(--painel); }
+  .login-form h1 { font-family: var(--serif); font-size: 28px; margin: 0; }
+  label { display: block; font-weight: 600; font-size: 14.5px; margin-bottom: 4px; }
+  input[type=text], input[type=password], input[type=search] { width: 100%; padding: 10px 12px; border: 1.5px solid #9db3ac; border-radius: 6px; background: #fff; }
+  .botao { padding: 10px 18px; border: 0; border-radius: 6px; background: var(--tinta); color: #fff; font-weight: 600; cursor: pointer; }
+  .botao:hover { background: #24424b; }
+  .botao.leve { background: transparent; color: var(--tinta); border: 1.5px solid var(--tinta); }
+  .botao.leve:hover { background: var(--papel); }
+  .erro { color: var(--critico); font-weight: 600; min-height: 1.5em; margin: 0; }
+  .demo { border-top: 1px solid var(--linha); padding-top: 14px; font-size: 14px; color: var(--tinta-suave); }
+  .demo table { width: 100%; border-collapse: collapse; margin-top: 6px; }
+  .demo td { padding: 5px 0; border-bottom: 1px solid var(--linha); }
+  .demo button { background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; font-weight: 600; color: var(--tinta); }
+  .aviso { font-size: 13.5px; color: var(--tinta-suave); margin: 0; }
+
+  /* ---------- aplicação ---------- */
+  header.topo { display: flex; align-items: center; gap: 24px; padding: 10px 24px; background: var(--painel); border-bottom: 1px solid var(--linha); flex-wrap: wrap; }
+  .abas { display: flex; gap: 4px; flex: 1; }
+  .aba { padding: 8px 14px; border: 0; background: none; border-radius: 6px; font-weight: 600; cursor: pointer; color: var(--tinta-suave); }
+  .aba[aria-selected=true] { background: var(--tinta); color: #fff; }
+  .usuario { display: flex; align-items: center; gap: 12px; font-size: 14.5px; }
+  .usuario small { color: var(--tinta-suave); display: block; line-height: 1.2; }
+
+  main { padding: 20px 24px 48px; max-width: 1280px; margin: 0 auto; }
+  .prontuarios { display: grid; grid-template-columns: 340px 1fr; gap: 20px; align-items: start; }
+  .lista { background: var(--painel); border: 1px solid var(--linha); border-radius: 8px; overflow: hidden; position: sticky; top: 12px; }
+  .lista .busca { padding: 12px; border-bottom: 1px solid var(--linha); }
+  .lista ul { list-style: none; margin: 0; padding: 0; max-height: calc(100vh - 170px); overflow-y: auto; }
+  .lista li button { width: 100%; text-align: left; background: none; border: 0; border-bottom: 1px solid var(--linha); padding: 10px 14px; cursor: pointer; display: block; }
+  .lista li button:hover { background: var(--papel); }
+  .lista li button[aria-current=true] { background: #e3ede9; box-shadow: inset 4px 0 0 var(--tinta); }
+  .lista .nome { font-family: var(--serif); font-size: 17px; font-weight: 700; display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+  .lista .meta { font-size: 13px; color: var(--tinta-suave); margin-top: 2px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .contagem { padding: 8px 14px; font-size: 13px; color: var(--tinta-suave); border-bottom: 1px solid var(--linha); }
+  .selo-alerta { background: var(--critico-fundo); color: var(--critico); border-radius: 99px; padding: 0 8px; font-size: 12.5px; font-weight: 700; font-family: var(--sans); }
+
+  .ficha { background: var(--painel); border: 1px solid var(--linha); border-radius: 8px; padding: 26px 30px 32px; min-height: 300px; }
+  .ficha h2 { font-family: var(--serif); font-size: 32px; line-height: 1.15; margin: 0 0 6px; }
+  .ficha h3 { font-family: var(--serif); font-size: 20px; margin: 28px 0 8px; padding-bottom: 6px; border-bottom: 2px solid var(--tinta); }
+  .ident { display: flex; flex-wrap: wrap; gap: 6px 28px; color: var(--tinta-suave); font-size: 15px; margin: 6px 0 10px; }
+  .ident b { color: var(--tinta); font-weight: 600; }
+  .vazio { color: var(--tinta-suave); padding: 36px 8px; text-align: center; }
+  .restrito { background: var(--atencao-fundo); color: var(--atencao); padding: 12px 14px; border-radius: 6px; margin-top: 18px; font-weight: 600; }
+
+  .alertas { display: grid; gap: 8px; margin: 18px 0 0; }
+  .alerta { padding: 10px 14px; border-radius: 6px; border-left: 6px solid; font-size: 15.5px; }
+  .alerta.critica { background: var(--critico-fundo); border-color: var(--critico); }
+  .alerta.alta { background: var(--critico-fundo); border-color: #d9665f; }
+  .alerta.media { background: var(--atencao-fundo); border-color: #d19a1f; }
+  .alerta.baixa { background: #eef0f1; border-color: #9aa8ad; }
+  .alerta strong { display: block; font-size: 13.5px; }
+
+  .itens { list-style: none; margin: 0; padding: 0; }
+  .itens li { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--linha); align-items: baseline; }
+  .itens .sub { color: var(--tinta-suave); font-size: 14px; }
+  .itens .so-um { box-shadow: -10px 0 0 -6px #d19a1f; }
+  .linha-tempo li { display: grid; grid-template-columns: 96px 1fr auto; }
+
+  /* ---------- análise e auditoria ---------- */
+  .painel { background: var(--painel); border: 1px solid var(--linha); border-radius: 8px; padding: 24px 28px; margin-bottom: 20px; }
+  .painel h2 { font-family: var(--serif); font-size: 26px; margin: 0 0 4px; }
+  .painel > p { margin: 0 0 16px; color: var(--tinta-suave); max-width: 80ch; }
+  .funil { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0; border: 1.5px solid var(--tinta); border-radius: 8px; overflow: hidden; margin-bottom: 8px; }
+  .funil div { padding: 14px 18px; border-right: 1px solid var(--linha); }
+  .funil div:last-child { border-right: 0; background: var(--tinta); color: #fff; }
+  .funil b { font-family: var(--serif); font-size: 36px; display: block; line-height: 1.1; }
+  .barra-linha { display: grid; grid-template-columns: minmax(180px, 320px) 1fr 40px; gap: 12px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--linha); }
+  .barra-linha .trilho { background: #e5ecea; height: 14px; border-radius: 3px; }
+  .barra-linha .preenche { background: var(--tinta); height: 100%; border-radius: 3px; }
+  .barra-linha .causa { grid-column: 1 / -1; font-size: 14px; color: var(--tinta-suave); margin-top: -4px; }
+  table.dados { width: 100%; border-collapse: collapse; font-size: 14.5px; }
+  table.dados th { text-align: left; padding: 8px 10px; border-bottom: 2px solid var(--tinta); }
+  table.dados td { padding: 7px 10px; border-bottom: 1px solid var(--linha); }
+  .tabela-rolagem { overflow-x: auto; }
+
+  @media (max-width: 860px) {
+    #login { grid-template-columns: 1fr; }
+    .login-lado { padding: 32px 24px; }
+    .login-form { padding: 28px 24px; }
+    .prontuarios { grid-template-columns: 1fr; }
+    .lista { position: static; }
+    .lista ul { max-height: 280px; }
+    .ficha { padding: 20px 18px; }
+    .linha-tempo li { grid-template-columns: 1fr; gap: 2px; }
+    .barra-linha { grid-template-columns: 1fr 40px; }
+    .barra-linha .trilho { grid-column: 1 / -1; grid-row: 2; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+</style>
+</head>
+<body>
+
+<!-- ============================ LOGIN ============================ -->
+<section id="login">
+  <div class="login-lado">
+    <div class="marca">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M4 34h40" stroke="#8fb7ac" stroke-width="3" stroke-linecap="round"/><path d="M6 34C6 18 18 12 24 12s18 6 18 22" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/><path d="M14 34v-8M24 34V12M34 34v-8" stroke="#8fb7ac" stroke-width="3" stroke-linecap="round"/></svg>
+      Ponte Saúde
+    </div>
+    <p>O histórico do paciente em um só lugar, mesmo quando ele foi atendido na UBS e no hospital.</p>
+    <div class="duas-margens" aria-hidden="true"><span class="fonte esus">e-SUS</span><span class="ponte"></span><span class="fonte tasy">Tasy</span></div>
+  </div>
+  <form class="login-form" id="form-login" autocomplete="off">
+    <h1>Entrar no sistema</h1>
+    <div><label for="usuario">Usuário</label><input type="text" id="usuario" required></div>
+    <div><label for="senha">Senha</label><input type="password" id="senha" required></div>
+    <p class="erro" id="erro-login" role="alert"></p>
+    <button class="botao" type="submit">Entrar</button>
+    <div class="demo">
+      Perfis de demonstração (clique para preencher):
+      <table>
+        <tr><td><button type="button" data-u="medico" data-s="med123">medico</button></td><td>vê tudo, inclusive o CPF completo</td></tr>
+        <tr><td><button type="button" data-u="enfermeiro" data-s="enf123">enfermeiro</button></td><td>vê o prontuário, com CPF mascarado</td></tr>
+        <tr><td><button type="button" data-u="recepcao" data-s="rec123">recepcao</button></td><td>vê só a identificação</td></tr>
+        <tr><td><button type="button" data-u="gestor" data-s="ges123">gestor</button></td><td>vê análise e auditoria, sem prontuários</td></tr>
+      </table>
+    </div>
+    <p class="aviso">Protótipo acadêmico. Todos os dados são fictícios e nenhuma informação real de saúde é usada.</p>
+  </form>
+</section>
+
+<!-- ============================ APLICAÇÃO ============================ -->
+<div id="app" class="oculto">
+  <header class="topo">
+    <div class="marca">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M4 34h40" stroke="#4d6168" stroke-width="3" stroke-linecap="round"/><path d="M6 34C6 18 18 12 24 12s18 6 18 22" fill="none" stroke="#16282e" stroke-width="3.5" stroke-linecap="round"/><path d="M14 34v-8M24 34V12M34 34v-8" stroke="#0e7c6b" stroke-width="3" stroke-linecap="round"/></svg>
+      Ponte Saúde
+    </div>
+    <nav class="abas" role="tablist" aria-label="Seções" id="abas"></nav>
+    <div class="usuario"><div><span id="nome-usuario"></span><small id="perfil-usuario"></small></div><button class="botao leve" id="sair">Sair</button></div>
+  </header>
+  <main>
+    <section id="aba-prontuarios" class="prontuarios oculto">
+      <div class="lista">
+        <div class="busca"><label for="busca">Buscar paciente</label><input type="search" id="busca" placeholder="Nome, CPF ou código (PS-0001)"></div>
+        <div class="contagem" id="contagem" aria-live="polite"></div>
+        <ul id="lista-pacientes"></ul>
+      </div>
+      <article class="ficha" id="ficha"><p class="vazio">Selecione um paciente na lista para ver o prontuário unificado.</p></article>
+    </section>
+    <section id="aba-analise" class="oculto"></section>
+    <section id="aba-auditoria" class="oculto"></section>
+  </main>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var token = null, usuario = null, selecionado = null, temporizador = null;
+  var $ = function (id) { return document.getElementById(id); };
+
+  function esc(t) { return String(t == null ? "" : t).replace(/[&<>"']/g, function (c) { return ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]; }); }
+  function dataBR(iso) { if (!iso) return "sem data"; var p = iso.split("-"); return p[2] + "/" + p[1] + "/" + p[0]; }
+  function idade(iso) { if (!iso) return ""; var n = new Date(iso), h = new Date(); var a = h.getFullYear() - n.getFullYear(); if (h.getMonth() < n.getMonth() || (h.getMonth() === n.getMonth() && h.getDate() < n.getDate())) a--; return a + " anos"; }
+  function fontes(lista) { return '<span class="fontes">' + (lista || []).map(function (f) { return '<span class="fonte ' + (f === "e-SUS" ? "esus" : "tasy") + '">' + esc(f) + '</span>'; }).join("") + '</span>'; }
+
+  function api(caminho, opcoes) {
+    opcoes = opcoes || {};
+    opcoes.headers = Object.assign({ "Content-Type": "application/json" }, opcoes.headers || {});
+    if (token) opcoes.headers.Authorization = "Bearer " + token;
+    return fetch(caminho, opcoes).then(function (r) {
+      return r.json().then(function (corpo) {
+        if (r.status === 401 && token) { sair(true); }
+        if (!r.ok) { var e = new Error(corpo.erro || "Erro inesperado."); e.status = r.status; throw e; }
+        return corpo;
+      });
+    });
+  }
+
+  // ------------------------------------------------------------------ login / sessão
+  document.querySelectorAll(".demo button").forEach(function (b) {
+    b.addEventListener("click", function () { $("usuario").value = b.dataset.u; $("senha").value = b.dataset.s; $("senha").focus(); });
+  });
+  $("form-login").addEventListener("submit", function (ev) {
+    ev.preventDefault(); $("erro-login").textContent = "";
+    api("/api/login", { method: "POST", body: JSON.stringify({ usuario: $("usuario").value, senha: $("senha").value }) })
+      .then(function (r) { token = r.token; usuario = r; $("senha").value = ""; abrirApp(); })
+      .catch(function (e) { $("erro-login").textContent = e.message; });
+  });
+  function sair(expirou) {
+    if (token && !expirou) { fetch("/api/logout", { method: "POST", headers: { Authorization: "Bearer " + token } }); }
+    token = null; usuario = null; selecionado = null;
+    $("app").classList.add("oculto"); $("login").classList.remove("oculto");
+    if (expirou) $("erro-login").textContent = "Sessão expirada. Entre novamente.";
+  }
+  $("sair").addEventListener("click", function () { sair(false); });
+
+  var NOMES_PERFIL = { medico: "Médico(a)", enfermeiro: "Enfermagem", recepcao: "Recepção", gestor: "Gestão" };
+  function abrirApp() {
+    $("login").classList.add("oculto"); $("app").classList.remove("oculto");
+    $("nome-usuario").textContent = usuario.nome; $("perfil-usuario").textContent = "Perfil: " + (NOMES_PERFIL[usuario.perfil] || usuario.perfil);
+    var abas = [];
+    if (usuario.permissoes.ver_prontuarios) abas.push(["prontuarios", "Prontuários"]);
+    if (usuario.permissoes.ver_analise) abas.push(["analise", "Análise de dados"]);
+    if (usuario.permissoes.ver_auditoria) abas.push(["auditoria", "Auditoria de acessos"]);
+    $("abas").innerHTML = abas.map(function (a) { return '<button class="aba" role="tab" data-aba="' + a[0] + '">' + a[1] + '</button>'; }).join("");
+    $("abas").querySelectorAll(".aba").forEach(function (b) { b.addEventListener("click", function () { mostrarAba(b.dataset.aba); }); });
+    mostrarAba(abas[0][0]);
+  }
+  function mostrarAba(nome) {
+    ["prontuarios", "analise", "auditoria"].forEach(function (a) { $("aba-" + a).classList.toggle("oculto", a !== nome); });
+    $("abas").querySelectorAll(".aba").forEach(function (b) { b.setAttribute("aria-selected", b.dataset.aba === nome ? "true" : "false"); });
+    if (nome === "prontuarios") { selecionado = null; $("ficha").innerHTML = '<p class="vazio">Selecione um paciente na lista para ver o prontuário unificado.</p>'; buscar(); }
+    if (nome === "analise") carregarAnalise();
+    if (nome === "auditoria") carregarAuditoria();
+  }
+
+  // ------------------------------------------------------------------ prontuários
+  $("busca").addEventListener("input", function () { clearTimeout(temporizador); temporizador = setTimeout(buscar, 250); });
+  function buscar() {
+    api("/api/pacientes?busca=" + encodeURIComponent($("busca").value)).then(function (r) {
+      $("contagem").textContent = r.total === 0 ? "Nenhum paciente encontrado. Confira o nome ou o CPF digitado." : r.total + (r.total === 1 ? " paciente" : " pacientes") + (r.total > r.pacientes.length ? " (mostrando " + r.pacientes.length + ")" : "");
+      $("lista-pacientes").innerHTML = r.pacientes.map(function (p) {
+        return '<li><button type="button" data-id="' + esc(p.id) + '"' + (p.id === selecionado ? ' aria-current="true"' : '') + '>' +
+          '<span class="nome"><span>' + esc(p.nome) + '</span>' + (p.n_alertas ? '<span class="selo-alerta" title="Alertas no prontuário">' + p.n_alertas + ' alerta' + (p.n_alertas > 1 ? "s" : "") + '</span>' : '') + '</span>' +
+          '<span class="meta">' + esc(p.cpf_exibicao) + ' ' + fontes(p.fontes) + '</span></button></li>';
+      }).join("");
+      $("lista-pacientes").querySelectorAll("button").forEach(function (b) { b.addEventListener("click", function () { abrirPaciente(b.dataset.id); }); });
+    }).catch(function (e) { $("contagem").textContent = e.message; });
+  }
+
+  function lista(itens, render, vazio) {
+    if (!itens.length) return '<p class="sub" style="color:var(--tinta-suave)">' + vazio + '</p>';
+    return '<ul class="itens">' + itens.map(render).join("") + '</ul>';
+  }
+  function abrirPaciente(id) {
+    selecionado = id;
+    document.querySelectorAll("#lista-pacientes button").forEach(function (b) { b.removeAttribute("aria-current"); if (b.dataset.id === id) b.setAttribute("aria-current", "true"); });
+    api("/api/pacientes/" + encodeURIComponent(id)).then(function (p) {
+      var h = '<h2>' + esc(p.nome) + '</h2>' +
+        '<div class="ident"><span><b>' + dataBR(p.nascimento) + '</b> (' + idade(p.nascimento) + ')</span><span>' + esc(p.municipio || "") + '</span><span>CPF <b>' + esc(p.cpf_exibicao) + '</b></span><span>Cartão SUS <b>' + esc(p.cns_exibicao) + '</b></span></div>' +
+        '<div>Dados reunidos de ' + fontes(p.fontes) + '</div>';
+      if (!p.ver_clinico) {
+        h += '<p class="restrito">Seu perfil vê apenas a identificação do paciente. As informações clínicas ficam restritas a médicos e enfermeiros.</p>';
+      } else {
+        if (p.alertas.length) {
+          h += '<div class="alertas" role="region" aria-label="Alertas do prontuário">' + p.alertas.map(function (a) {
+            var rot = { critica: "Risco crítico", alta: "Atenção alta", media: "Inconsistência", baixa: "Qualidade do cadastro" }[a.gravidade];
+            return '<div class="alerta ' + esc(a.gravidade) + '"><strong>' + rot + '</strong>' + esc(a.mensagem) + '</div>';
+          }).join("") + '</div>';
+        }
+        var parcial = p.fontes.length > 1;
+        h += '<h3>Alergias</h3>' + lista(p.alergias, function (x) { return '<li' + (parcial && x.fontes.length === 1 ? ' class="so-um" title="Registrada em apenas um sistema"' : '') + '><span>' + esc(x.nome) + '</span>' + fontes(x.fontes) + '</li>'; }, "Nenhuma alergia registrada em nenhum dos sistemas.");
+        h += '<h3>Medicamentos em uso</h3>' + lista(p.medicamentos, function (x) { return '<li><span>' + esc(x.nome) + ' <span class="sub">' + esc(x.dose) + '</span></span>' + fontes(x.fontes) + '</li>'; }, "Nenhum medicamento registrado.");
+        h += '<h3>Condições e diagnósticos</h3>' + lista(p.condicoes, function (x) { return '<li><span>' + esc(x.descricao) + ' <span class="sub">CID ' + esc(x.cid) + '</span></span>' + fontes(x.fontes) + '</li>'; }, "Nenhuma condição registrada.");
+        h += '<h3>Vacinas</h3>' + lista(p.vacinas, function (x) { return '<li><span>' + esc(x.nome) + ' <span class="sub">' + dataBR(x.data) + '</span></span>' + fontes(x.fontes) + '</li>'; }, "Nenhuma vacina registrada.");
+        h += '<h3>Histórico de atendimentos</h3>' + '<ul class="itens linha-tempo">' + p.atendimentos.map(function (a) { return '<li><span class="sub">' + dataBR(a.data) + '</span><span>' + esc(a.tipo) + ' <span class="sub">' + esc(a.unidade) + ' &middot; ' + esc(a.profissional) + '</span></span>' + fontes([a.fonte]) + '</li>'; }).join("") + '</ul>';
+      }
+      $("ficha").innerHTML = h; $("ficha").scrollIntoView({ block: "nearest" });
+    }).catch(function (e) { $("ficha").innerHTML = '<p class="vazio">' + esc(e.message) + '</p>'; });
+  }
+
+  // ------------------------------------------------------------------ análise
+  function carregarAnalise() {
+    api("/api/analise").then(function (a) {
+      var max = Math.max.apply(null, a.alertas_por_tipo.map(function (x) { return x.pacientes; }).concat([1]));
+      $("aba-analise").innerHTML =
+        '<div class="painel"><h2>Do duplicado ao paciente único</h2><p>Resultado do cruzamento entre os registros do e-SUS (UBS) e do Tasy (hospital).</p>' +
+        '<div class="funil"><div><b>' + a.registros_esus + '</b>registros no e-SUS</div><div><b>' + a.registros_tasy + '</b>registros no Tasy</div><div><b>' + a.registros_total + '</b>registros no total</div><div><b>' + a.pacientes_unificados + '</b>pacientes únicos</div></div>' +
+        '<p style="margin-top:12px">' + a.registros_redundantes_eliminados + ' registros redundantes foram unificados. ' + a.pacientes_em_ambos + ' pacientes foram atendidos nos dois sistemas, e em ' + a.percentual_ambos_com_alerta + '% deles há pelo menos uma inconsistência.</p></div>' +
+        '<div class="painel"><h2>Inconsistências encontradas</h2><p>Número de pacientes afetados por cada tipo de problema e a causa mais provável.</p>' +
+        a.alertas_por_tipo.map(function (x) { return '<div class="barra-linha"><span>' + esc(x.rotulo) + '</span><div class="trilho"><div class="preenche" style="width:' + Math.round(100 * x.pacientes / max) + '%"></div></div><b>' + x.pacientes + '</b><span class="causa">' + esc(x.causa) + '</span></div>'; }).join("") + '</div>' +
+        '<div class="painel"><h2>Oportunidades de melhoria</h2><ul>' + a.oportunidades.map(function (o) { return '<li>' + esc(o) + '</li>'; }).join("") + '</ul></div>';
+    }).catch(function (e) { $("aba-analise").innerHTML = '<div class="painel"><p>' + esc(e.message) + '</p></div>'; });
+  }
+
+  // ------------------------------------------------------------------ auditoria
+  function carregarAuditoria() {
+    api("/api/auditoria").then(function (r) {
+      $("aba-auditoria").innerHTML = '<div class="painel"><h2>Auditoria de acessos</h2><p>Todo acesso a dados de pacientes fica registrado: quem, quando e o quê. Tentativas negadas também aparecem. Mostrando os 200 eventos mais recentes.</p>' +
+        '<div class="tabela-rolagem"><table class="dados"><thead><tr><th>Data e hora</th><th>Usuário</th><th>Perfil</th><th>Ação</th><th>Recurso</th><th>Resultado</th></tr></thead><tbody>' +
+        r.eventos.map(function (e) { return '<tr><td>' + esc(e.data_hora) + '</td><td>' + esc(e.usuario) + '</td><td>' + esc(e.perfil) + '</td><td>' + esc(e.acao) + '</td><td>' + esc(e.recurso) + '</td><td>' + esc(e.resultado) + '</td></tr>'; }).join("") +
+        '</tbody></table></div></div>';
+    }).catch(function (e) { $("aba-auditoria").innerHTML = '<div class="painel"><p>' + esc(e.message) + '</p></div>'; });
+  }
+})();
+</script>
+</body>
+</html>

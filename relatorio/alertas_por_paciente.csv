@@ -1,0 +1,28 @@
+﻿id;paciente;sistemas;gravidade;tipo;mensagem
+PS-0002;Ana da Silva Martins;Tasy;baixa;Cadastro duplicado no mesmo sistema;2 cadastros do mesmo paciente no Tasy.
+PS-0004;Antônio Martins Souza;e-SUS + Tasy;media;Nome escrito de formas diferentes;"Nome escrito de formas diferentes: Antônio Martins Souza; Antônio Souza."
+PS-0007;Eduardo de Souza Ferreira;e-SUS + Tasy;alta;Alergia registrada em apenas um sistema;Alergia a Látex registrada somente no e-SUS.
+PS-0008;Eduardo Moreira Martins;e-SUS + Tasy;critica;Medicamento em uso x alergia registrada;Dipirona está em uso, mas o paciente tem alergia registrada a Dipirona.
+PS-0008;Eduardo Moreira Martins;e-SUS + Tasy;alta;Alergia registrada em apenas um sistema;Alergia a Dipirona registrada somente no e-SUS.
+PS-0009;Fernanda Teixeira Rodrigues;e-SUS;baixa;Cadastro duplicado no mesmo sistema;2 cadastros do mesmo paciente no e-SUS.
+PS-0010;Gabriel Lima Ribeiro;e-SUS + Tasy;critica;Medicamento em uso x alergia registrada;Dipirona está em uso, mas o paciente tem alergia registrada a Dipirona.
+PS-0010;Gabriel Lima Ribeiro;e-SUS + Tasy;alta;Alergia registrada em apenas um sistema;Alergia a Dipirona registrada somente no e-SUS.
+PS-0011;João Lima Souza;e-SUS + Tasy;alta;Alergia registrada em apenas um sistema;Alergia a Penicilina registrada somente no Tasy.
+PS-0012;João Machado Ferreira;e-SUS + Tasy;media;Nome escrito de formas diferentes;"Nome escrito de formas diferentes: João Ferreira; João Machado Ferreira."
+PS-0014;João Zanella Gomes;e-SUS + Tasy;media;Data de nascimento divergente;Data de nascimento diferente entre os sistemas: 1982-03-05 x 1982-03-28.
+PS-0015;José Gomes Santos;e-SUS + Tasy;alta;Alergia registrada em apenas um sistema;Alergia a Látex registrada somente no e-SUS.
+PS-0017;Juliana Santos Silva;e-SUS + Tasy;alta;Alergia registrada em apenas um sistema;Alergia a Dipirona registrada somente no Tasy.
+PS-0020;Luís Barbosa Costa;e-SUS + Tasy;alta;Alergia registrada em apenas um sistema;Alergia a Penicilina registrada somente no e-SUS.
+PS-0021;Luís Ribeiro Almeida;e-SUS + Tasy;alta;Alergia registrada em apenas um sistema;Alergia a Frutos do mar registrada somente no e-SUS.
+PS-0023;Luís Rodrigues Oliveira;e-SUS + Tasy;baixa;CPF ausente ou inválido;"CPF ausente ou inválido no Tasy; vínculo feito por nome e data de nascimento."
+PS-0025;Marta Santos Pereira;e-SUS + Tasy;media;Nome escrito de formas diferentes;"Nome escrito de formas diferentes: Marta S. Pereira; Marta Santos Pereira."
+PS-0029;Pedro Carvalho Martins;e-SUS + Tasy;baixa;CPF ausente ou inválido;"CPF ausente ou inválido no Tasy; vínculo feito por nome e data de nascimento."
+PS-0030;Pedro Machado Carvalho;e-SUS + Tasy;baixa;CPF ausente ou inválido;"CPF ausente ou inválido no Tasy; vínculo feito por nome e data de nascimento."
+PS-0031;Pedro Machado Souza;e-SUS + Tasy;media;Data de nascimento divergente;Data de nascimento diferente entre os sistemas: 2014-03-03 x 2014-03-06.
+PS-0032;Rodrigo Barbosa Rodrigues;e-SUS;baixa;Cadastro duplicado no mesmo sistema;2 cadastros do mesmo paciente no e-SUS.
+PS-0033;Rodrigo Ferreira Rodrigues;e-SUS + Tasy;media;Nome escrito de formas diferentes;"Nome escrito de formas diferentes: Rodrigo F. Rodrigues; Rodrigo Ferreira Rodrigues."
+PS-0037;Rosângela Teixeira Martins;e-SUS + Tasy;media;Nome escrito de formas diferentes;"Nome escrito de formas diferentes: Rosângela T. Martins; Rosângela Teixeira Martins."
+PS-0038;Sérgio Carvalho Gomes;e-SUS + Tasy;media;Nome escrito de formas diferentes;"Nome escrito de formas diferentes: Sérgio C. Gomes; Sérgio Carvalho Gomes."
+PS-0040;Tatiane Moreira Machado;e-SUS;baixa;Cadastro duplicado no mesmo sistema;2 cadastros do mesmo paciente no e-SUS.
+PS-0042;Vera Gomes Oliveira;e-SUS + Tasy;alta;Alergia registrada em apenas um sistema;Alergia a Ibuprofeno registrada somente no e-SUS.
+PS-0044;Vera Zanella Teixeira;Tasy;baixa;Cadastro duplicado no mesmo sistema;2 cadastros do mesmo paciente no Tasy.
