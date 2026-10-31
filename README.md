@@ -107,3 +107,6 @@ logs/                 auditoria de acessos (criada ao usar o sistema)
 - Usa dados simulados; em produção seria necessário integrar com as bases reais (idealmente via padrão HL7 FHIR) e ter autorização formal das instituições.
 - O servidor embutido é para demonstração; em produção seria preciso HTTPS, banco de dados e gestão de usuários.
 - A unificação por nome + data de nascimento é uma regra simples; em produção convém usar também revisão humana dos casos duvidosos.
+
+
+:P
